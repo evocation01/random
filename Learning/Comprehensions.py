@@ -77,17 +77,30 @@ i-u case:
 
 i-u case:
     instead of:
-        
+        for key in d:
+            val = d[key]
     use:
+        for key, val in d.items():
+            ...
 
+# tuple_unpacking
+i-u case: 
+    instead of:
+        x = mytuple[0]
+        y = mytuple[1]
+    use:
+        x, y = mytuple
+
+# index_counter_var
 i-u case:
     instead of:
+        l = [1,2,3]
         
-    use:
+        i = 0
+        for x in l:
+            ...
+            i += 1
 
-i-u case:
-    instead of:
-        
     use:
     
 i-u case:
