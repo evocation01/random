@@ -3,4 +3,4 @@
 
 def print_func(name):
     """code"""
-    print(f"hello {name}")
+    print(f"hello, {name}")
