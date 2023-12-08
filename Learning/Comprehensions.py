@@ -9,3 +9,12 @@ def never_using_comprehensions():
     set_comp = {i % 3 for i in range(10)}
     gen_comp = (2 * x + 5 for x in range(10))
     # pylint: enable=unused-variable
+
+
+def always_using_comprehensions(a, b, n):
+    """matrix product of a, b of length n x n"""
+    return [
+        sum(a[n * i + k] * b[n * k + j] for k in range(n))
+        for i in range(n)
+        for j in range(n)
+    ]
