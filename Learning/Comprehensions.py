@@ -32,11 +32,236 @@ def instead_use_this(a, b, n):
 
 # pylint: disable=pointless-string-statement
 """
+i-u case:
+    # Reason: Liskov principle #
 
-instead of: 
-    type(p) == tuple
-use:
-    isinstance(p, tuble)
-### Reason: Liskov principle
+    instead of: 
+        type(p) == tuple
+    use:
+        isinstance(p, tuble)
 
+i-u case:
+    instead of:
+        == (x == None)
+    use:
+        is (x is None)
+
+i-u case:
+    instead of:
+        x == True
+    use:
+        x
+
+i-u case:
+    instead of:
+        for i in range(len(a)):
+            v = a[i]
+    use:
+        for v in a:
+            ...
+        for i, v in enumerate(a):
+            ...
+
+i-u case:
+    instead of:
+        for i in range(len(b)):
+            av = a[i]
+            bv = b[i]
+    use:
+        for av, bv in zip(a,b):
+            ...
+
+    use:    
+        for i, (av, bv) in enumerate(zip(a,b)):
+            ...
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:
+    
+i-u case:
+    instead of:
+        
+    use:
+
+i-u case:
+    instead of:
+        
+    use:   
 """
