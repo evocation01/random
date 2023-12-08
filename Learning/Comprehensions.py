@@ -18,3 +18,13 @@ def always_using_comprehensions(a, b, n):
         for i in range(n)
         for j in range(n)
     ]
+
+
+def instead_use_this(a, b, n):
+    """matrix product of a, b of length n x n"""
+    c = []
+    for i in range(n):
+        for j in range(n):
+            ij_entry = sum(a[n * i + k] * b[n * k + j] for k in range(n))
+            c.append(ij_entry)
+    return c
