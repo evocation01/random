@@ -28,3 +28,15 @@ def instead_use_this(a, b, n):
             ij_entry = sum(a[n * i + k] * b[n * k + j] for k in range(n))
             c.append(ij_entry)
     return c
+
+
+# pylint: disable=pointless-string-statement
+"""
+
+instead of: 
+    type(p) == tuple
+use:
+    isinstance(p, tuble)
+### Reason: Liskov principle
+
+"""
