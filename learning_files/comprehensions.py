@@ -102,11 +102,18 @@ i-u case:
             i += 1
 
     use:
+        l = [1,2,3]
+        
+        for i, x in enumerate(l):
+            ...
     
 i-u case:
     instead of:
-        
+        time.time()
     use:
+        time.perf_counter()
+
+    # more accurate
 
 i-u case:
     instead of:
