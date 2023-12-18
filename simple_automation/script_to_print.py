@@ -4,12 +4,9 @@
 def print_func(name):
     """code"""
     if name == r"(\w), (\w)":
-        name == r"g<2> g<1>"
+        name = r"g<2> g<1>"
 
     print(f"hello, {name}")
-
-
-"""Main function:"""
 
 
 def main():
