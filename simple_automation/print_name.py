@@ -1,4 +1,4 @@
-"""Creating a custom print function to print names, for easier use later:"""
+"""Creating a custom print name function/script"""
 
 import re
 
@@ -13,12 +13,17 @@ def print_name_func(name="world"):
 
 
 def main():
-    """Test cases"""
-    print_name_func("İspir, Hakan")  # Hakan İspir
-    print_name_func("İspir Hakan")  # İspir Hakan
-    print_name_func("Hakan İspir")  # Hakan İspir
-    print_name_func("Hakan")  # Hakan
-    print_name_func()
+    """Main function"""
+    test_cases()
+
+
+def test_cases():
+    """Some basic test cases for the script"""
+    assert print_name_func("İspir, Hakan") == "hello, Hakan İspir"
+    assert print_name_func("İspir Hakan") == "hello, İspir Hakan"
+    assert print_name_func("Hakan İspir") == "hello, Hakan İspir"
+    assert print_name_func("Hakan") == "hello, Hakan"
+    assert print_name_func() == "hello, world"
 
 
 if __name__ == "__main__":
