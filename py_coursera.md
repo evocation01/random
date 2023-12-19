@@ -329,36 +329,52 @@ GIT Commands:
 					
 	
 	
-Coursera Troubleshooting
+### Coursera Troubleshooting
 	Amanda Ballas - Security Systems Admin.
 
-1- gather info
+1) gather info
 	- what, why, result, consequences
 	- Reproduction case
 		recreate the problem to understand how and why
 
-2- Find the root cause
-3- Perform necessary remedition
+2) Find the root cause
+3) Perform necessary remedition
 	* maybe rebooting (workaround) (short-term remedition)
 	
 - check pc logs
 - what was user doing, how long has it been going on
 
-short term remedition: cleaning the fan
-long term remedition: creating a IoT monitoring to remind you 
 
-strace : system trace func
-	-o (flag): saves the output to a file [strace -o fail.strace ./script.py]
+* short term remedition: cleaning the fan
+* long term remedition: creating a IoT monitoring to remind you 
+
+# Some Key Functions:
+- strace : system trace func
+    -o (flag): saves the output to a file [strace -o fail.strace ./script.py]
 		then you can use "less fail.strace" to browse throught it (open it)
 	" strace ./script.py | less " works too.
 
-top: 
+- top
 	shows CPU loads
-
-kill -STOP : 
+- iotop
+    shows I/O loads (input and output)
+- iostat
+    shows statistics on I/O loads
+- vmstat
+    shows stats on VM ops (virtual memory) 
+- ionice
+    reduces priority to access the disk (nice I/O)
+- nice
+    reduces priority to access the CPU
+- iftop
+    shows network traffic
+- rsync
+    used to backup data (sync)
+    has an option to limit bandwidth (-bw) 
+    # or can use a tool like Trickle to limit bw
+- kill -STOP 
 	suspends the system (pause)
 
-# Reproduction Case: a way to generate the problem again
 
 # Logs. Which logs to read?
 	Linux:
@@ -372,7 +388,17 @@ kill -STOP :
 
 * Always check your hypothesis in a TEST env.
 
+# A few important steps:
+- get info
+- modify program to get more/better log (debugging mode)
+- isolate the causes
+- understand the error messages 
 
+# Intermittent Bugs:
 
-	
+1) Heisenbugs (observer bugs)
+    - the bug goes away when observing, but pop up again after
+2) Bugs that go away when restarting 
+    # (restart = power cycling)
+
 	
