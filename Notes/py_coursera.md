@@ -399,6 +399,6 @@ GIT Commands:
 1) Heisenbugs (observer bugs)
     - the bug goes away when observing, but pop up again after
 2) Bugs that go away when restarting 
-    # (restart = power cycling)
+    * (restart = power cycling)
 
 	
