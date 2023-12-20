@@ -43,8 +43,8 @@ def message_template(date: str, title: str):
 Hi all!
 
 This is a quick mail to remind you all that we have a meeting about:
-"{title}
-the {weekday} {date}.
+{title}
+on {weekday}, {date}.
 
 See you there.
 """
@@ -55,14 +55,17 @@ See you there.
 def send_message(message, emails):
     """Create a function to send the 'message' to the designated email"""
     try:
-        smtp = smtplib.SMTP("localhost")
+        smtp = smtplib.SMTP("smtp.gmail.com", 587)
+        smtp.starttls()
+        smtp.login("hakanispir2004@gmail.com", "ywnw yeiu eusf xgxb")
         message["From"] = "noreply@example.com"
 
-        for recipient_email in emails.split("."):
+        for recipient_email in emails.split(","):
             del message["To"]
             message["To"] = recipient_email
             smtp.send_message(message)
         smtp.quit()
+
     except Exception as e:
         print(f"Error sending email: {e}", file=sys.stderr)
 
@@ -71,25 +74,33 @@ def parse_arguments():
     """Create parse arguments, set some types and add help/description options"""
 
     parser = argparse.ArgumentParser(description="Send email reminders.")
+    parser.add_argument(
+        "input_string",
+        type=str,
+        help='Input string in the format "date|Meeting Title|Emails"',
+    )
+    args = parser.parse_args()
 
-    parser.add_argument("date", type=str, help='Date in the format "dd/mm/yyyy"')
-    parser.add_argument("title", type=str, help="Meeting title")
-    parser.add_argument("emails", type=str, help="Email addresses separated by commas")
+    # Split the input string using '|' and unpack the values
+    date, title, emails = args.input_string.split("|")
 
-    return parser.parse_args()
+    return date, title, emails
 
 
 def main():
     """Main function"""
 
-    args = parse_arguments()
-
     try:
-        date, title, emails = args.date, args.title, args.emails
+        date, title, emails = parse_arguments()
 
         message = message_template(date, title)
         send_message(message, emails)
+
         logging.info("Successfully sent reminders to: %s", emails)
 
     except Exception as e:
-        logging.error("Failure to send email: %s", e)
+        logging.error("Failure to send email due to: %s", e)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
