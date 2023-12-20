@@ -15,6 +15,7 @@ DEFAULT_EMAILS = {
     "hakan": "hakanispir2004@gmail.com",
     "ege": "egeaslan147@gmail.com",
     "hüd": "hudayeniocak04@hotmail.com",
+    "ayse": "severayseserife@gmail.com",
 }
 
 SMTP_CONFIG = {
