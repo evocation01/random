@@ -9,12 +9,18 @@ import logging
 import smtplib
 import sys
 
+logging.basicConfig(level=logging.INFO)
+
 
 def usage():
-    """Creates some print statements for better understanding"""
+    """Creates some log statements for better understanding"""
 
-    print("\nInvocation:")
-    print("\tsend_reminders 'date|Meeting Title|Emails'")
+    # print("\nInvocation:")
+    # print("\tsend_reminders 'date|Meeting Title|Emails'")
+
+    logging.error(
+        "Invalid invocation. Example: send_reminders 'date|Meeting Title|Emails'"
+    )
 
     return 1
 
@@ -52,9 +58,9 @@ def send_message(message, emails):
         smtp = smtplib.SMTP("localhost")
         message["From"] = "noreply@example.com"
 
-        for email in emails.split("."):
+        for recipient_email in emails.split("."):
             del message["To"]
-            message["To"] = email
+            message["To"] = recipient_email
             smtp.send_message(message)
         smtp.quit()
     except Exception as e:
@@ -62,7 +68,7 @@ def send_message(message, emails):
 
 
 def parse_arguments():
-    """Create parse arguments and set some types/help"""
+    """Create parse arguments, set some types and add help/description options"""
 
     parser = argparse.ArgumentParser(description="Send email reminders.")
 
@@ -83,7 +89,7 @@ def main():
 
         message = message_template(date, title)
         send_message(message, emails)
-        print("Successfully sent reminders to:", emails)
+        logging.info("Successfully sent reminders to: %s", emails)
 
     except Exception as e:
-        print(f"Failure to send email: {e}", file=sys.stderr)
+        logging.error("Failure to send email: %s", e)
