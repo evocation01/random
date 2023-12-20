@@ -1,0 +1,2 @@
+[pylint]
+max-line-length = 120  # Set your desired line length, or a large number to disable
