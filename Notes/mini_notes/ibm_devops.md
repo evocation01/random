@@ -50,10 +50,11 @@
 # çok yüksek sorumluluk olduğu için sorun yaşadığınız oldu mu?
 # hiyerarşi nasıl durumda
 
+
 "middleware"
 
 
-landscape.cncf.io
+
 Analysis 
     Design
         Implementation
