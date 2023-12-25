@@ -2,6 +2,7 @@
 
 
 def find_item(my_list, item):
+    """finding an item using binary search"""
     my_list = sorted(my_list)
     # Returns True if the item is in the my_list, False if not.
     if len(my_list) == 0:
@@ -39,6 +40,7 @@ my_list_of_names = [
 
 
 def main():
+    """test cases"""
     print(find_item(my_list_of_names, "Alex"))  # True
     print(find_item(my_list_of_names, "Andrew"))  # False
     print(find_item(my_list_of_names, "Drew"))  # True

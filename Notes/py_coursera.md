@@ -402,3 +402,20 @@ GIT Commands:
     * (restart = power cycling)
 
 	
+# How to search
+
+1) Linear Search
+	- 1 2 3 4 ...
+	- it works but can take a lot of time in a huge set
+	- t --> len  
+2) Binary Search
+	- you keep halving the set (bisecting)
+	- asking "is it on the left side, or right". 
+	- i.e. for 100,000 comparisons, instead of 100,000
+	- binary search requires sorting b4hand
+	
+	- git bisect
+
+
+
+# Slowness

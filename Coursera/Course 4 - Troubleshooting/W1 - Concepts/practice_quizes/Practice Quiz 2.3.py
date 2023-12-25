@@ -1,7 +1,10 @@
+"""a function to compare strings"""
+
 import re
 
 
 def compare_strings(string1, string2):
+    """compares strings"""
     # Convert both strings to lowercase
     # and remove leading and trailing blanks
     string1 = string1.lower().strip()
