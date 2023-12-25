@@ -16,8 +16,6 @@ def compare_strings(string1, string2):
     # DEBUG CODE GOES HERE
 
     result = string1 == string2
-    print(result)
-
     return result
 
 

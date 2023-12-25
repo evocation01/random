@@ -1,4 +1,5 @@
-"""How to search in python. Linear, binary search"""
+""" How to search in python. 
+    Linear, binary search"""
 
 
 def linear_search(my_list, key):
@@ -29,7 +30,7 @@ def binary_search(my_list, key):
 
 
 def find_item(my_list, item):
-    # Returns True if the item is in the my_list, False if not.
+    """Returns True if the item is in the my_list, False if not."""
     if len(my_list) == 0:
         return False
 
