@@ -30,3 +30,7 @@
 ### 2.What is a heisenbug?
 
     The observer effect.
+
+### 4.How do we verify if a problem is still persisting or not?
+
+    Attempt to trigger the problem again by following the steps of our reproduction case
