@@ -419,3 +419,8 @@ GIT Commands:
 
 
 # Slowness
+
+* Memory Leak
+	- memory which is no longer needed is not getting released
+
+* find root cause and bottleneck
