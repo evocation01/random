@@ -528,4 +528,194 @@ Foundations of Big Data:
 		
 * OLTP: Online Transaction Processing
 	
-			
+
+### Week 3 
+### Identfying Data for Analysis
+
+- what info
+	your goal?
+- which source
+- plan
+	time frame
+	volume, amount
+	define dependencies and risks
+- methods
+- key considerations
+	quality, security, privacy
+- for reliable data
+	no errors
+	accurate
+	complete
+	relevant
+	accessible
+- data governance
+	sevurity, regulation, compliances
+- data privacy
+	confidentiality, licences, compliance to regulations
+
+* right data =>
+	allow looking at multiple perspectives
+	credible&reliable findings
+
+# Data Sources
+* Internal 
+- External
+* Primary
+	obtained directly from source
+	internal (CRM, HR, worklow applications)
+	external (surveys, interviews, discussions, observations, focus groups)
+- Secondary 
+	from existing sources
+	external db's
+	research articles, publications, internet (public)
+	data collected from public external 
+- Third-party
+	purchased from aggregators who collect data
+
+* Sources
+	* Dynamic
+	* Diverse
+	* Continuously evolving
+
+	- Databases
+		- Cloud
+	- Web
+		- social media
+	- sensor data
+		- from smart apps, wearable devices
+	- data exchange
+		3rd party
+		voluntary sharing of data 
+	- surveys
+	- Census
+		household data as wealth, income, population
+	- Interviews
+		qualitative data
+	- Observation Studies
+
+
+# How to Gather & Import Data
+
+- using queries (SQL)
+	to extract data from SQL DB's (RDBMS)
+- NRDBMS can be queried using SQL(-like) query tools
+	or specific querying tools i.e. 
+		CQL for Cassandra
+		GraphQL for Neo4J
+
+- API's
+	invoked from apps
+	can be used for data validation
+
+- web scraping (screen scraping, web harvesting)
+	download things like
+		text, info, images, videos, music etc.
+
+- RSS feeds (ongoing refreshed data)
+	i.e. forums
+
+- sensor data
+	IoT devices, apps, GPS
+
+- Data Exchange platforms
+	- well-defined protocols
+	- security, governance
+	* AWS DataExchange
+	* Crunchbase
+	* Lotame
+	* Snowflake
+
+
+* Other Sources
+	- research&advisory firms; i.e.
+	+ Forrester, Gartner, Business Insider
+	- agencies: market surveys, demographic studies
+
+### Importing Data
+
+# Identified and Gathered Data =>
+	Data Repo
+
+# Wrangling Data (data munging)
+	data exploration 
+		understand your data better @ use case
+	transformation
+		structuring
+			change form & schema
+				to i.e. combining RDBMS&Web APIs' data
+				joins	
+					combines columns 
+				unions
+					combines rows
+		normalizing
+			cleaning 
+			improving 
+			reduce redundancy & inconsistency
+		denormalizing
+			combines data 
+			for faster querying
+		cleaning (filtering)
+			inaccuracies
+			NAs
+			nulls
+			incomplete
+			biases
+			outliers
+		enriching
+			adding stuff to make it more meaningful
+			points,
+			relationships,
+			visualizations
+	validation
+		check consistency, quality, security
+	publishing
+	documentation
+
+# Tools for Data Wrangling
+	Excel Power Quary / Spreadsheets
+	OpenRefine
+		open-source
+		can import&export data
+			json, tsv, csv, xls, xml (transformation)
+	Google DataPrep
+		fully-managed service
+		@ cloud
+		smart
+	Watson Studio Refinery
+		IBM Watson Studio
+		smart
+		has built-in features to discover, cleanse, transform d
+	Trifacta Wrangler
+		export to excel, tableau, R
+		collab features
+	Python
+		Jupyter Notebook
+		NumPy
+		SciPy
+		pandas
+			data analysis
+			merging, joining, transforming 
+	R
+		Dplyr
+		Data.table
+			aggregate large data sets quickly
+		jsonlite
+			json parsing tool, @ web API interactions
+	
+
+# DATA CLEANING
+1) Inspection
+	detect issues, errors
+	data profiling
+	data visualization
+2) Cleaning
+	@ use case
+	NA's -> bias & wrong results
+	duplicates
+	irrelevant data (filtering)
+	make sure formats are same (looking at you, yy/dd/mm haha)
+	outliers, bad skew
+3) Verification 
+	> run summary statistics
+		to makes ure it is consistent w/ reality
+	

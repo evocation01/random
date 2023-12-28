@@ -29,11 +29,24 @@ I/O streams := The basic mechanism for performing I/O operations in your program
 	
 ------------------------------------------------------------------------------------------------------------------------
 
-Linux shells:
+* Linux shells:
 	Bash, Zsh, Fish
 	
-Programs get executed inside a shell CLE. (Command-Line Environment)
+- Programs get executed inside a shell CLE. (Command-Line Environment)
 
+* OS = 
+	* Kernel 
+		main core
+		manages sys resources 
+	* User Space
+		things that are interacted
+		i.e. UI
+		
+* Linux distributions =
+	Ubuntu, ChromeOS, Redhat, Android 
+	(MacOS : BSD Kernel) 
+	# MacOS != Linux
+	
 ------------------------------------------------------------------------------------------------------------------------
 		
 Redirection: 
@@ -424,3 +437,6 @@ GIT Commands:
 	- memory which is no longer needed is not getting released
 
 * find root cause and bottleneck
+
+* To access elements by position	
+	use dictionaries (much faster than lists)
