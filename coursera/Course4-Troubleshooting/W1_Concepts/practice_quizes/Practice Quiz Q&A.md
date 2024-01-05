@@ -67,6 +67,29 @@ Debuggers: Tools that follow the code line by line, inspect changes in variable 
 ### When is it permissible to calculate the sum of two different data types in Python? Select all that apply
     never
 
+#### PQ: Slow Code
+* Which of the following is NOT considered an expensive operation?
+    Parsing a file
+    Downloading data over the network
+    Going through a list
+    - Using a dictionary
 
+* Which of the following may be the most expensive to carry out in most automation tasks in a script?
+    - Loops
+
+* What command, keyword, module, or tool can be used to measure the amount of time it takes for an operation or program to execute? (Check all that apply)
+- time
+- kcachegrind
+    profile data visualization
+- cProfile
+    deterministic profiling
+
+* Which of the following statements represents the most sound advice when writing scripts?
+- Awesome! If we don't notice any slowdown, then there's little point trying to speed it up.
+
+* In Python, what is a data structure that stores multiple pieces of data, in order, which can be changed later?
+- Lists
+
+#### PQ: When slowness problems get complex
 
 

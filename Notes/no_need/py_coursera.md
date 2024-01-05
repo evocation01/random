@@ -440,3 +440,140 @@ GIT Commands:
 
 * To access elements by position	
 	use dictionaries (much faster than lists)
+
+* time (command)
+	gives real, user, sys time.
+	real:
+		actual time
+	user:
+		user space
+	sys:
+		sys-level ops
+
+* profilers
+	pprofile3
+	kcachegrind
+
+# complex problems
+
+- Concurrency
+	a dedicated field of CS 
+	on parallel ops
+
+* parallel ops
+	>1 core
+		OS decides what gets executed on which core
+
+* Threads
+	lets us run parallel tasks inside a process
+	Py: Threading, AsyncIO
+
+# A problem, hosting data.
+* Hosting data, increasingly more popular. 
+* Starting with .csv as most people do. 
+* It's getting slower and slower, so you have to switch.
+* Solution?
+	- .csv
+	- SQLite
+	- DB server
+	- Dynamic cacher
+
+
+* Executor
+	process thats in charge of distributing the work among the diff. workers
+* Futures module
+	Threads
+		has more security measures to 
+		avoid writing to the same var
+		(slight delay from t1 to t2, waiting to make sure
+		it's not the same var.)
+
+		GIL limitations. (Global Interpreter Lock) 
+		Limits the utilization of multiple cores
+ 	Processes
+		a little faster than threads
+	asyncIO
+		more powerful
+		bypasses GIL limitations
+
+# Terms and definitions from Course 4, Module 2
+
+* Activity Monitor: Mac OS tool that shows what's using the most CPU, memory, energy, disk, or network
+* 
+* Cache: This stores data in a form that's faster to access than its original form
+* 
+* Executor: This is the process that's in charge of distributing the work among the different workers
+* 
+* Expensive actions: Actions that can take a long time to complete
+* 
+* Futures: A module provides a couple of different executors, one for using threads and the other one for using processes
+* 
+* Lists: Sequences of elements
+* 
+* Memory leak: This happens when a chunk of memory that's no longer needed is not released
+* 
+* Profiler: A tool that measures the resources the code is using to see how the memory is allocated and how the time is spent
+* 
+* Real time: The amount of actual time that it took to execute the command
+* 
+* Resource Monitor (or Performance Monitor): Windows OS tool that shows what's using the most CPU, memory, energy, disk, or network
+* 
+* Sys time: The time spent doing system level operations
+* 
+* Threads: Run parallel tasks inside a process
+* 
+* User time: The time spent doing operations in the user space
+
+# Week 3 
+# Crashing Programs 
+
+memtech86
+	to check for health of RAM
+linux: 
+# some commands
+	strace 
+		to trace sys calls/signals.
+	ptrace 
+	netstat 
+		gives a bunch of network stats
+# some directories to find stuff
+	/var/log 
+	/etc/<app folder> 
+		contains config files
+	/srv/<app folder>
+		stores data for services&apps
+		i.e. 
+			"example.com" web content (Saved)
+			.py files for the service
+
+mac
+	dtruss (cmd)
+	Console (app)
+windows
+	process monitor (app)
+	Event Viewer (app)
+
+
+to find root cause of a crash, look at;
+	logs
+	changes/new versions (change history in VCS maybe?)
+	trace sys/library calls
+	create reproduction case (as small as possible!)
+
+Watchdog:
+	a process that checks whether a program is running, and when it's not, starts the program again.
+		run negative -> restart
+
+
+* Answer these questions, when reporting a bug:
+	- What were you trying to do?
+	- What were steps you followed?
+	- What did you expect to happen?
+	- What was the actual outcome?
+	- - Also, try to create a reproduction case and submit it as well. Will help wonders!
+
+# Remarks
+* Blue screen of death (BSoD)
+* Event Tracing for Windows (ETW) 
+
+

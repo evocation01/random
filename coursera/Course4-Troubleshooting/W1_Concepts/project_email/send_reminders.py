@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """ A python script that sends e-mail reminders, with args 'date, title, email' """
 
 
@@ -12,6 +14,7 @@ import sys
 logging.basicConfig(level=logging.INFO)
 
 DEFAULT_EMAILS = {
+    # default emails to make it easier to write
     "hakan": "hakanispir2004@gmail.com",
     "ege": "egeaslan147@gmail.com",
     "hüd": "hudayeniocak04@hotmail.com",
@@ -19,6 +22,7 @@ DEFAULT_EMAILS = {
 }
 
 SMTP_CONFIG = {
+    # smtp server details
     "server": "smtp.gmail.com",
     "port": 587,
     "username": "hakanispir2004@gmail.com",
@@ -55,15 +59,15 @@ def message_template(date: str, title: str):
     message["Subject"] = f'Meeting reminder: "{title}"'
     message.set_content(
         f"""
-Hi all!
-
-This is a quick mail to remind you all that we have a meeting about:
+Hey!
+You have this important thing to do,
 
 {title}
 
 on {weekday}, {date}.
 
-See you there.
+This is a reminder so that you don't forget it!
+Good luck!
 """
     )
     return message
