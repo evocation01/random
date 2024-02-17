@@ -3,3 +3,7 @@ ERROR:root:This is an error with a custom format
 ERROR:root:This is an error with a custom format
 ERROR:root:This is an error swith a custom format
 ERROR:root:This is an error swith a custom format
+INFO:root:This message will be written to app.log
+ERROR:root:This is an error swith a custom format
+ERROR:root:This is an error swith a custom format
+INFO:root:This message will be written to app.log
