@@ -1,4 +1,8 @@
 # Keybindings
+shift+tab
+    dedentation
+ctrl + ö
+    commenting
 ctrl+shift+p or f1
     opens command palate
 CTRL + @ or CTRL+shift+. 
