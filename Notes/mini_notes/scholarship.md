@@ -52,3 +52,20 @@ Thank you.
 	Thank you.
 
   
+# matrix algebra for engineers
+
+# 1
+  I'm currently a 2nd year university student in Marmara University, located in Istanbul, Turkey. I am studying Industrial Engineering at the moment, but planning to change my course to Computer Science at the end of the year.
+   The main reason for me applying to this financial aid is actually due to my country's financial situation. I am afraid, Turkey's financial system is absolutely awful. The inflation according to official channels is about 70%, but outsider, respectable channels predict it at least 200%. This number seems quite true, thinking about daily life expenses. As an example, the cost of meal in my university was 2TL in 2021, 6TL in 2022 and 15TL in 2023. And this is a government-funded, public university.
+  Unfortunately, this also means that acceptable amounts of payment for the western world can mean a ton of money in here. For instance, this certification costs at lowest 150 dollars for 3 months. My monthly income from my family is about 100 dollars, which means this course costs more than I get per month. Also considering it would be my family's money, I can't ask them that much.
+  I should mention, I have applied and granted the aid to Numerical Methods for Engineers course. What I didn't realise at the time is that I don't have mathematical skills to excell at that course, and since this is a part of the specialization, I would like to apply and finish this first. Thank you.
+
+
+# 2
+
+    Main reason I want to take this professional certification program is the fact that I also have it as a course in my university. And I know for sure that my university and teacher is no where close to the level of The Hong Kong University and Coursera. 
+    In addition to that, I know how I understand things. I am not great at face-to-face, "right at the moment" kind of learning, I excel in online learning. Ability to watch/learn from my own personal computer and on my pace really excels things for me.
+    I am a industrial engineering student that wishes to be a data scientist - and as Professor Chasnov mentioned in his promotional video, data scientists need mathematical and numerical skills like the courses in this specialization; Numerical Methods, Matrix Algebra, Vector Calculus. 
+    Therefore, the reason is that this course will help me to achieve my main goal: to be a better engineer. In order to do this, I have to learn Numerical Methods - and for that,  I need to learn Matrix Algebra and more. 
+    Thank you.
+ 
