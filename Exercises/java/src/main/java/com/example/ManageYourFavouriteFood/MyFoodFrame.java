@@ -1,3 +1,4 @@
+package main.java.com.example.ManageYourFavouriteFood;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -17,12 +18,12 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class MyFrame extends JFrame implements ActionListener {
-    PizzaOrder collection = new PizzaOrder();
+public class MyFoodFrame extends JFrame implements ActionListener {
+    MyFoodCollection collection = new MyFoodCollection();
     JButton nameButton;
     JButton ageButton;
-    JButton lastNameButton;
-    JButton currentAdressButton;
+    JButton birthPlaceButton;
+    JButton currentHomeButton;
     JButton yourIDButton;
     JButton addButton;
     JButton removeButton;
@@ -32,22 +33,21 @@ public class MyFrame extends JFrame implements ActionListener {
     JButton listButton;
     JButton helpButton;
     JTextArea textArea;
-    ImageIcon icon = new ImageIcon("C:/Users/hakan/IdeaProjects/ALL/SERIOUS_Projects/Pizza.png");
-//Burda dosya adi degisiyo onu sen halledersin
+    ImageIcon icon = new ImageIcon("Exercises/java/src/main/java/com/example/ManageYourFavouriteFood/food.jpeg");
 
 String name = "";
 int age = 0;
-String lastName = "";
-String currentAdress = "";
+String birthPlace = "";
+String currentHomePlace = "";
 private boolean validInput = false;
 
 
-    public MyFrame() {
+    public MyFoodFrame() {
 
         try {
             name = JOptionPane.showInputDialog("Enter your name:");
-            lastName = JOptionPane.showInputDialog("Enter your last name:");
-            currentAdress = JOptionPane.showInputDialog("Enter your adress:");
+            birthPlace = JOptionPane.showInputDialog("Enter your birthplace:");
+            currentHomePlace = JOptionPane.showInputDialog("Enter where you live right now:");
         } catch (Exception e) {
             System.out.print("An error occurred while getting user input.");
             e.printStackTrace();
@@ -71,7 +71,7 @@ private boolean validInput = false;
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new BorderLayout(10, 10));
         this.setSize(new Dimension(500, 500));
-        this.setTitle("Pizza Management Systemw");
+        this.setTitle("Food Management System");
         this.setIconImage(icon.getImage());
 
 
@@ -104,27 +104,27 @@ private boolean validInput = false;
         // Panels have been added. //
 
 
-        addButton = new JButton("Add A Pizza");
+        addButton = new JButton("Add A Food");
         addButton.addActionListener(this);
         addButton.setMnemonic(KeyEvent.VK_A);
 
-        removeButton = new JButton("Remove A Pizza");
+        removeButton = new JButton("Remove A Food");
         removeButton.addActionListener(this);
         removeButton.setMnemonic(KeyEvent.VK_R);
 
-        listButton = new JButton("List all existing Pizzas");
+        listButton = new JButton("List all existing foods");
         listButton.addActionListener(this);
         listButton.setMnemonic(KeyEvent.VK_L);
 
-        searchButton1 = new JButton("T-Search"); //Search for a Pizza using its title
+        searchButton1 = new JButton("N-Search"); //Search for a Food using its name
         searchButton1.addActionListener(this);
         searchButton1.setMnemonic(KeyEvent.VK_1);
 
-        searchButton2 = new JButton("TG-Search"); //Search for a Pizza using its title and genre
+        searchButton2 = new JButton("NT-Search"); //Search for a Food using its name and type
         searchButton2.addActionListener(this);
         searchButton2.setMnemonic(KeyEvent.VK_2);
 
-        searchButton3 = new JButton("TGP-Search"); //Search for a Pizza using its title, genre and protagonist
+        searchButton3 = new JButton("NTO-Search"); //Search for a Food using its name, type and origin
         searchButton3.addActionListener(this);
         searchButton3.setMnemonic(KeyEvent.VK_3);
 
@@ -136,13 +136,13 @@ private boolean validInput = false;
         ageButton.addActionListener(this);
         ageButton.setMnemonic(KeyEvent.VK_G);
 
-        lastNameButton = new JButton("LastName");
-        lastNameButton.addActionListener(this);
-        lastNameButton.setMnemonic(KeyEvent.VK_B);
+        birthPlaceButton = new JButton("Birthplace");
+        birthPlaceButton.addActionListener(this);
+        birthPlaceButton.setMnemonic(KeyEvent.VK_B);
 
-        currentAdressButton = new JButton("Current home");
-        currentAdressButton.addActionListener(this);
-        currentAdressButton.setMnemonic(KeyEvent.VK_C);
+        currentHomeButton = new JButton("Current home");
+        currentHomeButton.addActionListener(this);
+        currentHomeButton.setMnemonic(KeyEvent.VK_C);
 
         helpButton = new JButton("Help");
         helpButton.addActionListener(this);
@@ -165,8 +165,8 @@ private boolean validInput = false;
 
         panel1.add(nameButton);
         panel1.add(ageButton);
-        panel1.add(lastNameButton);
-        panel1.add(currentAdressButton);
+        panel1.add(birthPlaceButton);
+        panel1.add(currentHomeButton);
         panel1.add(yourIDButton);
         panel2.add(addButton);
         panel2.add(removeButton);
@@ -183,33 +183,32 @@ private boolean validInput = false;
     }
 
     @Override
-//BURALARI ANLAMADIM KODA NASI BI ETKISI VAR
     public void actionPerformed(ActionEvent e) {
 
         if (e.getSource() == addButton) {
-            String title = JOptionPane.showInputDialog("\nEnter the name of the Pizza:");
-            String genre = JOptionPane.showInputDialog("\nPlease enter the genre of the Pizza: \nAccepted genres: 'action' 'adventure' 'scifi' 'drama' 'comedy'");
-            genre = genre.toLowerCase();
-            String protagonist = JOptionPane.showInputDialog("\nPlease enter the name of the protagonist of the Pizza, if known.");
+            String name = JOptionPane.showInputDialog("\nEnter the name of the food:");
+            String type = JOptionPane.showInputDialog("\nPlease enter the type of the food: \nAccepted types: 'Pizza' 'pasta' 'Seafood' 'salad' 'sandwich'");
+            type = type.toLowerCase();
+            String origin = JOptionPane.showInputDialog("\nPlease enter the origin of the food, if known.");
 
-            switch (genre) {
-                case "action":
-                    collection.addPizza(new PizzaPastry(title, "Action", protagonist));
+            switch (type.toLowerCase()) {
+                case "pizza":
+                    collection.addFood(new Pizza(name, "Pizza", origin));
                     break;
-                case "adventure":
-                    collection.addPizza(new PizzaType(title, "Adventure", protagonist));
+                case "pasta":
+                    collection.addFood(new Pasta(name, "Pasta", origin));
                     break;
-                case "scifi":
-                    collection.addPizza(new SciFiPizza(title, "SciFi", protagonist));
+                case "seafood":
+                    collection.addFood(new Seafood(name, "Seafood", origin));
                     break;
-                case "drama":
-                    collection.addPizza(new DramaPizza(title, "Drama", protagonist));
+                case "salad":
+                    collection.addFood(new Salad(name, "Salad", origin));
                     break;
-                case "comedy":
-                    collection.addPizza(new ComedyPizza("EE", "Comedy", protagonist));
+                case "sandwich":
+                    collection.addFood(new Sandwich(name, "Sandwich", origin));
                     break;
                 default:
-                    System.out.println("Not a known genre.");
+                    System.out.println("Not a known type.");
                     break;
             }
 
@@ -217,37 +216,37 @@ private boolean validInput = false;
 
 
         if (e.getSource() == removeButton) {
-            String title = JOptionPane.showInputDialog("\nEnter the name of the Pizza:");
-            String genre = JOptionPane.showInputDialog("\nPlease enter the genre of the Pizza: \nAccepted genres: 'action' 'adventure' 'scifi' 'drama' 'comedy'");
-            genre = genre.toLowerCase();
-            System.out.printf("\nRemoving the Pizza with the title %s and genre %s", title, genre);
-            collection.removePizza(title, genre);
+            String name = JOptionPane.showInputDialog("\nEnter the name of the food:");
+            String type = JOptionPane.showInputDialog("\nPlease enter the type of the food: \nAccepted types: 'Pizza' 'pasta' 'Seafood' 'salad' 'sandwich'");
+            type = type.toLowerCase();
+            System.out.printf("\nRemoving the food with the name %s and type %s", name, type);
+            collection.removeFood(name, type);
         }
 
         if (e.getSource() == searchButton1) {
-            String title = JOptionPane.showInputDialog("Enter the name of the Pizza:");
+            String name = JOptionPane.showInputDialog("\nEnter the name of the food:");
 
-            Main.searchingForPizza(collection, title);
+            Main.searchingForFood(collection, name);
         }
 
         if (e.getSource() == searchButton2) {
-            String title = JOptionPane.showInputDialog("\nEnter the name of the Pizza:");
-            String genre = JOptionPane.showInputDialog("\nPlease enter the genre of the Pizza: \nAccepted genres: 'action' 'adventure' 'scifi' 'drama' 'comedy'");
-            genre = genre.toLowerCase();
+            String name = JOptionPane.showInputDialog("\nEnter the name of the food:");
+            String type = JOptionPane.showInputDialog("\nPlease enter the type of the food: \nAccepted types: 'Pizza' 'pasta' 'Seafood' 'salad' 'sandwich'");
+            type = type.toLowerCase();
 
-            Main.searchingForPizza(collection, title, genre);
+            Main.searchingForFood(collection, name, type);
         }
         if (e.getSource() == searchButton3) {
-            String title = JOptionPane.showInputDialog("\nEnter the name of the Pizza:");
-            String genre = JOptionPane.showInputDialog("\nPlease enter the genre of the Pizza: \nAccepted genres: 'action' 'adventure' 'scifi' 'drama' 'comedy'");
-            genre = genre.toLowerCase();
-            String protagonist = JOptionPane.showInputDialog("\nPlease enter the name of the protagonist of the Pizza, if known.");
+            String name = JOptionPane.showInputDialog("\nEnter the name of the food:");
+            String type = JOptionPane.showInputDialog("\nPlease enter the type of the food: \nAccepted types: 'Pizza' 'pasta' 'Seafood' 'salad' 'sandwich'");
+            type = type.toLowerCase();
+            String origin = JOptionPane.showInputDialog("\nPlease enter the origin of the food, if known.");
 
-            Main.searchingForPizza(collection, title, genre, protagonist);
+            Main.searchingForFood(collection, name, type, origin);
         }
 
         if (e.getSource() == listButton) {
-            collection.listPizzas();
+            collection.listFoods();
         }
 
         if (e.getSource() == nameButton) {
@@ -257,29 +256,29 @@ private boolean validInput = false;
             System.out.print("\nYour age is " + age);
         }
 
-        if (e.getSource() == lastNameButton) {
-            System.out.print("\nYour last name is" + lastName);
+        if (e.getSource() == birthPlaceButton) {
+            System.out.print("\nYou were born in " + birthPlace);
         }
-        if (e.getSource() == currentAdressButton) {
-            System.out.print("\nYour address is" + currentAdress);
+        if (e.getSource() == currentHomeButton) {
+            System.out.print("\nYou are living in " + currentHomePlace);
         }
         if (e.getSource() == yourIDButton) {
-            System.out.printf("\nYour name is %s, your age is %d, your last name is %s and your address is %s", name, age, lastName, currentAdress);
+            System.out.printf("\nYour name is %s, your age is %d, you were born in %s and you are living in %s", name, age, birthPlace, currentHomePlace);
         }
 
         if (e.getSource() == helpButton) {
             System.out.print("\nSome information on everything: ");
-            System.out.print("\nT: Title");
-            System.out.print("\nTG: Title and Genre");
-            System.out.println("\nTGP: Title, Genre and Protagonist");
+            System.out.print("\nN: name");
+            System.out.print("\nNT: name and type");
+            System.out.println("\nNTO: name, type and origin");
             System.out.println("\nRed area gives some basic information.");
-            System.out.println("\nPink area let's you add or remove a Pizza.");
-            System.out.println("\nPurple area let's you either list all the Pizzas or get some help.");
-            System.out.println("\nOrange area let's you add or remove a Pizza.");
+            System.out.println("\nPink area let's you add or remove a food.");
+            System.out.println("\nPurple area let's you either list all the foods or get some help.");
+            System.out.println("\nOrange area let's you add or remove a food.");
             System.out.println("\nYou can also use mnemonics to easily press buttons:");
             System.out.println("\nAdd(Alt+A), Remove(Alt+R), List (ALT+L), Search1 (ALT+1), " +
                                "\nSearch2 (ALT+2), Search3 (ALT+3), name (ALT+N), age (ALT+G), " +
-                               "\nlastName(ALT+B), currentHome(ALT+C), help (ALT+H), yourID (ALT+I)");
+                               "\nbirthPlace(ALT+B), currentHome(ALT+C), help (ALT+H), yourID (ALT+I)");
 
         }
     }
