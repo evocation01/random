@@ -1,11 +1,11 @@
-package main.java.com.example.pizzaManagementTool;
+package main.java.com.example.pizzaManagement;
 
-public abstract class Pizza {
+public abstract class Movie {
     protected String title;
     protected String genre;
     protected String protagonist;
 
-    public Pizza(String title, String genre, String protagonist) {
+    public Movie(String title, String genre, String protagonist) {
         this.title = title;
         this.genre = genre;
         this.protagonist = protagonist;
@@ -37,7 +37,7 @@ public abstract class Pizza {
 
     @Override
     public String toString() {
-        return "Pizza{" +
+        return "Movie{" +
                 "title='" + title + '\'' +
                 ", genre='" + genre + '\'' +
                 ", protagonist='" + protagonist + '\'' +
