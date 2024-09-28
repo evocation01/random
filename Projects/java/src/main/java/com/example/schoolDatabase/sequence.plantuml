@@ -1,0 +1,24 @@
+@startuml main
+class Main {
+    - double x = 0
+    - double y = 0
+    + start(Stage stage) : void
+    + main(String[] args) : void
+}
+
+Main ..> Application : extends
+
+Main ..> FXMLLoader : load(getClass().getResource("MainFrame.fxml"))
+Main ..> Parent : root
+Main ..> Scene : scene
+Main ..> Stage : stage
+
+Main : "root.setOnMousePressed(MouseEvent event)"
+Main : "root.setOnMouseDragged(MouseEvent event)"
+Main : "root.setOnMouseReleased(MouseEvent event)"
+
+Main : "stage.initStyle(StageStyle.TRANSPARENT)"
+Main : "stage.setScene(scene)"
+Main : "stage.show()"
+
+@enduml

@@ -1,0 +1,41 @@
+@startuml
+ 
+interface RandomNumberGenerator {
+    + random() : double
+}
+ 
+class LCG implements RandomNumberGenerator {
+    - seed : int
+    - a : int
+    - c : int
+    - m : int
+    + __init__(seed : int, a : int, c : int, m : int)
+    + random() : double
+}
+ 
+class CSPRNG implements RandomNumberGenerator {
+    + random() : double
+}
+ 
+class PythonRandom implements RandomNumberGenerator {
+    + random() : double
+}
+ 
+class HaltonSequence {
+    - base : int
+    - index : int
+    + __init__(base : int)
+    + next() : double
+}
+ 
+class MonteCarloArea {
+    + monte_carlo_area(n : int, random_generator : RandomNumberGenerator) : double
+}
+ 
+RandomNumberGenerator <|.. LCG
+RandomNumberGenerator <|.. CSPRNG
+RandomNumberGenerator <|.. PythonRandom
+ 
+MonteCarloArea ..> RandomNumberGenerator
+ 
+@enduml

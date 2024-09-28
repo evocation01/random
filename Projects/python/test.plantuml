@@ -1,0 +1,38 @@
+@startuml
+ 
+interface RandomNumberGenerator {
+  + random() : double
+}
+
+class RandomRandom {
+    + test_random_random() : (list<double>, double)
+}
+ 
+class LCG {
+    + test_lcg() : (list<double>, double)
+}
+ 
+class CSPRNG {
+    + test_csprng() : (list<double>, double)
+}
+ 
+class Halton {
+    + test_halton() : (list<double>, double)
+}
+
+class MemoryUsage {
+    + measure_memory_usage(generator_func : function) : (list<double>, double, int)
+}
+
+class ConsistencyTest {
+    + consistency_test(numbers : list<double>) : double
+}
+
+RandomNumberGenerator <|.. RandomRandom
+RandomNumberGenerator <|.. LCG
+RandomNumberGenerator <|.. CSPRNG
+ 
+MemoryUsage ..> RandomNumberGenerator
+ConsistencyTest ..> RandomNumberGenerator
+ 
+@enduml

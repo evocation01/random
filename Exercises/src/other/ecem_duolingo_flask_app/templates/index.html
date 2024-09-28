@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 600px; /* Adjust size */
+            margin-top: 20px;
+        }
+        button {
+            position: absolute; /* Position the button relative to the container */
+            top: 80%; /* Center vertically */
+            left: 50%; /* Center horizontally    */
+            transform: translate(-50%, -50%); /* Adjust for button's size */
+            padding: 10px 20px; /* Optional: add padding to the button */
+            font-size: 16px; /* Optional: increase button font size */
+            cursor: pointer; /* Change cursor on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Congratulations on 50 days of spanish!</h1>
+
+    <!-- Display the GIF -->
+    <img src="{{ url_for('static', filename='confetti_congratz.gif') }}" alt="Celebration GIF">
+
+    <!-- Button to play the audio (moved below the image) -->
+    <button id="playAudio">Play Congratulations Audio</button>
+
+    <!-- Audio element -->
+    <audio id="audio" src="{{ url_for('static', filename='congratulations_audio.mp3') }}" preload="auto"></audio>
+
+    <script>
+        document.getElementById('playAudio').onclick = function() {
+            document.getElementById('audio').play();
+        };
+    </script>
+
+</body>
+</html>
+

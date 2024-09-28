@@ -1,0 +1,123 @@
+@startuml
+skinparam linetype ortho
+skinparam defaultFontName Tahoma
+skinparam componentStyle uml2
+
+package com.example.mystudentmanagementsystem {
+    class Main {
+        + start(stage: Stage)
+        + main(args: String[])
+    }
+
+    class FXML_Controller {
+        - connect: Connection
+        - prepare: PreparedStatement
+        - result: ResultSet
+        + loginAdmin()
+        + close()
+        + initialize(url: URL, rb: ResourceBundle)
+    }
+
+    class dashboardController {
+        - connect: Connection
+        - prepare: PreparedStatement
+        - statement: Statement
+        - result: ResultSet
+        - image: Image
+        + homeDisplayTotalEnrolledStudents()
+        + homeDisplayFemaleEnrolled()
+        + homeDisplayMaleEnrolled()
+        + homeDisplayTotalEnrolledChart()
+        + homeDisplayFemaleEnrolledChart()
+        + homeDisplayEnrolledMaleChart()
+        + addStudentsAdd()
+        + addStudentsUpdate()
+        + addStudentsDelete()
+        + addStudentsClear()
+        + addStudentsInsertImage()
+        + addStudentsSearch()
+        + addStudentsYearList()
+        + addStudentsCourseList()
+        + addStudentsGenderList()
+        + addStudentsStatusList()
+        + addStudentsListData()
+        + addStudentsShowListData()
+        + addStudentsSelect()
+        + availableCourseAdd()
+        + availableCourseUpdate()
+        + availableCourseDelete()
+        + availableCourseClear()
+        + availableCourseListData()
+        + availableCourseShowListData()
+        + availableCourseSelect()
+        + studentGradesUpdate()
+        + studentGradesClear()
+        + studentGradesListData()
+        + studentGradesShowListData()
+        + studentGradesSelect()
+        + studentGradesSearch()
+        + logout()
+        + displayUsername()
+        + defaultNav()
+        + switchForm(event: ActionEvent)
+        + close()
+        + minimize()
+        + initialize(location: URL, resources: ResourceBundle)
+    }
+
+    class database {
+        + connectDb(): Connection
+    }
+
+    class getData {
+        + username: String
+        + path: String
+    }
+
+    class studentData {
+        - studentNum: Integer
+        - year: String
+        - course: String
+        - firstName: String
+        - lastName: String
+        - gender: String
+        - birth: Date
+        - status: String
+        - image: String
+        - firstSem: Double
+        - secondSem: Double
+        - finals: Double
+        + studentData(studentNum: Integer, year: String, course: String, firstName: String, lastName: String, gender: String, birth: Date, status: String, image: String)
+        + studentData(studentNum: Integer, year: String, course: String, firstSem: Double, secondSem: Double, finals: Double)
+        + getStudentNum(): Integer
+        + getYear(): String
+        + getCourse(): String
+        + getFirstName(): String
+        + getLastName(): String
+        + getGender(): String
+        + getBirth(): Date
+        + getStatus(): String
+        + getImage(): String
+        + getFirstSem(): Double
+        + getSecondSem(): Double
+        + getFinals(): Double
+    }
+
+    class courseData {
+        - course: String
+        - description: String
+        - degree: String
+        + courseData(course: String, description: String, degree: String)
+        + getCourse(): String
+        + getDescription(): String
+        + getDegree(): String
+    }
+
+    Main *-- FXML_Controller
+    FXML_Controller *-- database
+    dashboardController *-- database
+    dashboardController *-- getData
+    dashboardController *-- studentData
+    dashboardController *-- courseData
+}
+@enduml
