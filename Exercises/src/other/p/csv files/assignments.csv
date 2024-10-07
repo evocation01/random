@@ -1,0 +1,21 @@
+assignment_id,course_id,description,due_date
+1,101,Math Homework 1,2024-10-10
+2,102,Physics Lab Report,2024-10-12
+3,103,Chemistry Midterm,2024-10-15
+4,104,Biology Research Paper,2024-10-18
+5,105,Computer Science Project,2024-10-20
+6,106,History Essay,2024-10-22
+7,107,Philosophy Debate,2024-10-25
+8,108,Literature Analysis,2024-10-28
+9,109,Economics Case Study,2024-11-01
+10,110,Engineering Design,2024-11-05
+11,111,Art Portfolio,2024-11-07
+12,112,Music Composition,2024-11-09
+13,113,Psychology Experiment,2024-11-12
+14,114,Sociology Interview,2024-11-15
+15,115,Business Presentation,2024-11-18
+16,116,Political Science Paper,2024-11-20
+17,117,Linguistics Quiz,2024-11-22
+18,118,Environmental Science Report,2024-11-25
+19,119,Statistics Final,2024-11-30
+20,120,Geography Map Analysis,2024-12-05

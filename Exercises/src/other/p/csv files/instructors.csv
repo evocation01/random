@@ -1,0 +1,11 @@
+instructor_id,name,department_id,email
+1,Dr. Alan Turing,1,alan.turing@university.edu
+2,Dr. Marie Curie,2,marie.curie@university.edu
+3,Dr. Isaac Newton,1,isaac.newton@university.edu
+4,Dr. Ada Lovelace,3,ada.lovelace@university.edu
+5,Dr. Albert Einstein,2,albert.einstein@university.edu
+6,Dr. Charles Darwin,4,charles.darwin@university.edu
+7,Dr. Rosalind Franklin,3,rosalind.franklin@university.edu
+8,Dr. Nikola Tesla,1,nikola.tesla@university.edu
+9,Dr. Sigmund Freud,5,sigmund.freud@university.edu
+10,Dr. Carl Jung,5,carl.jung@university.edu
