@@ -1,0 +1,1530 @@
+Palindromes of length 4:
+noon
+
+Palindromes of length 5:
+madam
+civic
+level
+refer
+rotor
+
+Palindromes of length 6:
+qnoonq
+znoonz
+pnoonp
+knoonk
+unoonu
+vnoonv
+hnoonh
+tnoont
+onoono
+xnoonx
+snoons
+cnoonc
+lnoonl
+mnoonm
+fnoonf
+jnoonj
+anoona
+wnoonw
+ynoony
+inooni
+bnoonb
+gnoong
+rnoonr
+enoone
+nnoonn
+dnoond
+
+Palindromes of length 7:
+qreferq
+srefers
+erotore
+rcivicr
+jrotorj
+ileveli
+ulevelu
+rlevelr
+krotork
+pmadamp
+ymadamy
+kcivick
+creferc
+vreferv
+grotorg
+crotorc
+emadame
+freferf
+arotora
+jmadamj
+hlevelh
+dleveld
+wcivicw
+elevele
+dcivicd
+plevelp
+repaper
+icivici
+ccivicc
+dreferd
+kmadamk
+breferb
+hrotorh
+arefera
+qmadamq
+jreferj
+dmadamd
+vcivicv
+zmadamz
+deified
+gcivicg
+hcivich
+umadamu
+slevels
+mmadamm
+hmadamh
+vrotorv
+lmadaml
+rmadamr
+alevela
+omadamo
+frotorf
+flevelf
+xreferx
+ncivicn
+kreferk
+qrotorq
+klevelk
+jlevelj
+pcivicp
+ecivice
+zlevelz
+reviver
+zrotorz
+trefert
+acivica
+yrotory
+xmadamx
+ucivicu
+nleveln
+xlevelx
+cmadamc
+erefere
+wrotorw
+qlevelq
+fcivicf
+vlevelv
+bcivicb
+amadama
+gmadamg
+racecar
+urotoru
+ycivicy
+scivics
+mlevelm
+smadams
+orefero
+greferg
+trotort
+mrotorm
+glevelg
+brotorb
+nmadamn
+ocivico
+srotors
+imadami
+wlevelw
+rrotorr
+mreferm
+mcivicm
+wmadamw
+ylevely
+qcivicq
+rreferr
+irotori
+jcivicj
+olevelo
+bmadamb
+vmadamv
+lcivicl
+ireferi
+wreferw
+llevell
+hreferh
+orotoro
+tlevelt
+lrotorl
+drotord
+yrefery
+lreferl
+xrotorx
+blevelb
+preferp
+nrefern
+clevelc
+zcivicz
+nrotorn
+ureferu
+protorp
+zreferz
+tmadamt
+xcivicx
+tcivict
+fmadamf
+
+Palindromes of length 8:
+taco cat
+
+Palindromes of length 9:
+rrepaperr
+noonwnoon
+orepapero
+noonvnoon
+dracecard
+vrepaperv
+dreviverd
+noondnoon
+srepapers
+ideifiedi
+cracecarc
+redivider
+ireviveri
+edeifiede
+drepaperd
+bracecarb
+mrepaperm
+uracecaru
+yrevivery
+qracecarq
+noongnoon
+lreviverl
+pracecarp
+mracecarm
+ydeifiedy
+pdeifiedp
+qreviverq
+hreviverh
+rracecarr
+noonbnoon
+erevivere
+xreviverx
+jracecarj
+tdeifiedt
+xrepaperx
+hrepaperh
+urepaperu
+noonlnoon
+nracecarn
+brepaperb
+jreviverj
+rreviverr
+adeifieda
+vracecarv
+rdeifiedr
+mreviverm
+freviverf
+kreviverk
+noonpnoon
+zreviverz
+udeifiedu
+nrepapern
+noonenoon
+gdeifiedg
+odeifiedo
+yrepapery
+eracecare
+jrepaperj
+noonunoon
+ureviveru
+wreviverw
+vdeifiedv
+trepapert
+arevivera
+aracecara
+crepaperc
+greviverg
+qdeifiedq
+nooninoon
+nooncnoon
+kdeifiedk
+arepapera
+noonynoon
+krepaperk
+orevivero
+lrepaperl
+sracecars
+noonznoon
+hracecarh
+noonjnoon
+noonknoon
+trevivert
+cdeifiedc
+wdeifiedw
+nrevivern
+ldeifiedl
+noonsnoon
+hdeifiedh
+bdeifiedb
+noonqnoon
+srevivers
+noonnnoon
+noontnoon
+erepapere
+noonmnoon
+noonrnoon
+breviverb
+noonfnoon
+ndeifiedn
+xdeifiedx
+tracecart
+fdeifiedf
+qrepaperq
+oracecaro
+noononoon
+noonhnoon
+vreviverv
+gracecarg
+grepaperg
+zdeifiedz
+mdeifiedm
+noonxnoon
+yracecary
+wrepaperw
+kracecark
+fracecarf
+creviverc
+lracecarl
+noonanoon
+jdeifiedj
+prepaperp
+frepaperf
+zracecarz
+ddeifiedd
+wracecarw
+iracecari
+irepaperi
+sdeifieds
+xracecarx
+zrepaperz
+previverp
+
+Palindromes of length 10:
+ftaco catf
+vtaco catv
+itaco cati
+ttaco catt
+ctaco catc
+otaco cato
+mtaco catm
+ytaco caty
+utaco catu
+wtaco catw
+staco cats
+ztaco catz
+ptaco catp
+xtaco catx
+btaco catb
+dtaco catd
+ataco cata
+ktaco catk
+htaco cath
+qtaco catq
+ntaco catn
+etaco cate
+gtaco catg
+ltaco catl
+rtaco catr
+jtaco catj
+
+Palindromes of length 11:
+civicdcivic
+referrrefer
+refergrefer
+referzrefer
+refererefer
+refercrefer
+refernrefer
+civickcivic
+rotorerotor
+referdrefer
+madamzmadam
+madamfmadam
+rotortrotor
+zredividerz
+madamymadam
+rotoryrotor
+referyrefer
+levelrlevel
+referprefer
+rotorxrotor
+nredividern
+rotorwrotor
+civicocivic
+madamnmadam
+madamkmadam
+civicbcivic
+referarefer
+levelalevel
+civicfcivic
+madamcmadam
+madamgmadam
+madamhmadam
+mredividerm
+rotorsrotor
+uredivideru
+dredividerd
+rotornrotor
+rotorcrotor
+civichcivic
+rotormrotor
+leveldlevel
+civictcivic
+levelqlevel
+levelolevel
+madamrmadam
+refervrefer
+levelzlevel
+madampmadam
+madamsmadam
+civicycivic
+civicecivic
+madamqmadam
+rotordrotor
+rotorhrotor
+madamlmadam
+gredividerg
+levelilevel
+civicrcivic
+refersrefer
+aredividera
+civiczcivic
+predividerp
+levelslevel
+rotorjrotor
+wredividerw
+rotorurotor
+referlrefer
+rotorbrotor
+referbrefer
+madamamadam
+fredividerf
+madamtmadam
+civicqcivic
+jredividerj
+civicucivic
+levelwlevel
+civicncivic
+referkrefer
+levelylevel
+levelplevel
+madamdmadam
+levelmlevel
+referqrefer
+credividerc
+bredividerb
+rotorarotor
+rotorprotor
+tredividert
+levelnlevel
+refermrefer
+civicvcivic
+rotorgrotor
+civicgcivic
+levelblevel
+referhrefer
+detartrated
+civicscivic
+madamumadam
+referirefer
+madambmadam
+levelulevel
+levelclevel
+referfrefer
+levelvlevel
+rotorkrotor
+madamomadam
+civiclcivic
+madammmadam
+kredividerk
+qredividerq
+yredividery
+referwrefer
+rotorrrotor
+rredividerr
+levelhlevel
+levelklevel
+civicmcivic
+rotorvrotor
+civicacivic
+madamimadam
+vredividerv
+iredivideri
+rotorirotor
+madamjmadam
+rotorqrotor
+levelllevel
+rotorfrotor
+leveljlevel
+levelflevel
+madamemadam
+eredividere
+civicpcivic
+sredividers
+referjrefer
+madamwmadam
+referorefer
+madamxmadam
+xredividerx
+levelglevel
+civicjcivic
+rotororotor
+madamvmadam
+civicwcivic
+referurefer
+rotorlrotor
+levelxlevel
+levelelevel
+lredividerl
+rotorzrotor
+refertrefer
+civicxcivic
+referxrefer
+civicicivic
+hredividerh
+oredividero
+leveltlevel
+civicccivic
+
+Palindromes of length 13:
+tdetartratedt
+vdetartratedv
+zdetartratedz
+ydetartratedy
+edetartratede
+hdetartratedh
+idetartratedi
+jdetartratedj
+kdetartratedk
+ndetartratedn
+sdetartrateds
+odetartratedo
+qdetartratedq
+fdetartratedf
+bdetartratedb
+gdetartratedg
+udetartratedu
+wdetartratedw
+rdetartratedr
+cdetartratedc
+xdetartratedx
+pdetartratedp
+mdetartratedm
+ddetartratedd
+adetartrateda
+ldetartratedl
+
+Palindromes of length 15:
+repaperurepaper
+deifiedydeified
+repaperqrepaper
+racecarfracecar
+deifiedldeified
+deifiedpdeified
+repapermrepaper
+racecareracecar
+reviverdreviver
+reviverpreviver
+repapererepaper
+racecarjracecar
+deifiedsdeified
+repapersrepaper
+racecartracecar
+deifiedgdeified
+deifiedodeified
+repaperkrepaper
+repaperorepaper
+reviverhreviver
+Yo, Banana Boy!
+deifiedndeified
+reviveryreviver
+deifiededeified
+racecarnracecar
+racecarlracecar
+racecaryracecar
+revivergreviver
+racecarzracecar
+deifiedfdeified
+reviverireviver
+deifiedtdeified
+racecarhracecar
+racecarqracecar
+racecararacecar
+revivercreviver
+deifiedadeified
+deifiedxdeified
+Step on no pets
+repaperyrepaper
+repaperxrepaper
+repaperlrepaper
+reviverwreviver
+reviverqreviver
+deifiedideified
+repaperbrepaper
+repapernrepaper
+reviverereviver
+repapergrepaper
+racecarvracecar
+reviverbreviver
+reviverrreviver
+revivermreviver
+deifiedwdeified
+reviverkreviver
+racecarmracecar
+racecardracecar
+deifiedzdeified
+repaperirepaper
+revivertreviver
+deifiedvdeified
+deifiedrdeified
+reviverxreviver
+repaperjrepaper
+deifiedddeified
+deifiedhdeified
+revivernreviver
+racecarcracecar
+A Santa at NASA
+racecaruracecar
+deifiedudeified
+repaperwrepaper
+repaperarepaper
+repapervrepaper
+revivervreviver
+racecarbracecar
+racecarrracecar
+deifiedcdeified
+deifiedmdeified
+Too hot to hoot
+reviversreviver
+racecarpracecar
+racecargracecar
+reviverareviver
+racecarxracecar
+racecariracecar
+racecaroracecar
+reviverureviver
+racecarwracecar
+repaperhrepaper
+reviveroreviver
+racecarsracecar
+repaperfrepaper
+repaperprepaper
+deifiedbdeified
+repaperrrepaper
+reviverjreviver
+repapercrepaper
+deifiedjdeified
+racecarkracecar
+deifiedqdeified
+deifiedkdeified
+repapertrepaper
+reviverzreviver
+repaperdrepaper
+reviverfreviver
+repaperzrepaper
+reviverlreviver
+
+Palindromes of length 17:
+taco catbtac ocat
+eYo, Banana Boy!e
+taco catltac ocat
+qYo, Banana Boy!q
+aToo hot to hoota
+fYo, Banana Boy!f
+rStep on no petsr
+mStep on no petsm
+oA Santa at NASAo
+zToo hot to hootz
+uYo, Banana Boy!u
+lStep on no petsl
+vToo hot to hootv
+taco catqtac ocat
+jYo, Banana Boy!j
+bA Santa at NASAb
+tStep on no petst
+taco catutac ocat
+yYo, Banana Boy!y
+xStep on no petsx
+cStep on no petsc
+wStep on no petsw
+pYo, Banana Boy!p
+lYo, Banana Boy!l
+nStep on no petsn
+taco catrtac ocat
+fToo hot to hootf
+taco catgtac ocat
+sToo hot to hoots
+aYo, Banana Boy!a
+wToo hot to hootw
+fA Santa at NASAf
+tToo hot to hoott
+sYo, Banana Boy!s
+iA Santa at NASAi
+zA Santa at NASAz
+taco catwtac ocat
+gYo, Banana Boy!g
+hToo hot to hooth
+hA Santa at NASAh
+yStep on no petsy
+taco cathtac ocat
+zYo, Banana Boy!z
+sStep on no petss
+cToo hot to hootc
+mToo hot to hootm
+xToo hot to hootx
+qStep on no petsq
+taco catktac ocat
+taco catvtac ocat
+nYo, Banana Boy!n
+oStep on no petso
+xA Santa at NASAx
+fStep on no petsf
+hYo, Banana Boy!h
+taco catitac ocat
+taco catztac ocat
+aStep on no petsa
+bToo hot to hootb
+iStep on no petsi
+tA Santa at NASAt
+bYo, Banana Boy!b
+jStep on no petsj
+vStep on no petsv
+taco catctac ocat
+dYo, Banana Boy!d
+taco catntac ocat
+pStep on no petsp
+mYo, Banana Boy!m
+taco catxtac ocat
+kA Santa at NASAk
+taco catstac ocat
+sA Santa at NASAs
+iYo, Banana Boy!i
+taco catjtac ocat
+pToo hot to hootp
+gA Santa at NASAg
+gToo hot to hootg
+cYo, Banana Boy!c
+taco catytac ocat
+oToo hot to hooto
+wA Santa at NASAw
+xYo, Banana Boy!x
+taco catatac ocat
+hStep on no petsh
+yA Santa at NASAy
+vA Santa at NASAv
+taco catttac ocat
+vYo, Banana Boy!v
+uToo hot to hootu
+yToo hot to hooty
+tYo, Banana Boy!t
+uStep on no petsu
+taco catmtac ocat
+lToo hot to hootl
+uA Santa at NASAu
+rToo hot to hootr
+bStep on no petsb
+jA Santa at NASAj
+taco catdtac ocat
+oYo, Banana Boy!o
+Never odd or even
+kStep on no petsk
+rYo, Banana Boy!r
+eA Santa at NASAe
+wYo, Banana Boy!w
+taco catftac ocat
+qToo hot to hootq
+taco catetac ocat
+nA Santa at NASAn
+cA Santa at NASAc
+lA Santa at NASAl
+nToo hot to hootn
+kYo, Banana Boy!k
+gStep on no petsg
+kToo hot to hootk
+mA Santa at NASAm
+qA Santa at NASAq
+pA Santa at NASAp
+zStep on no petsz
+jToo hot to hootj
+eStep on no petse
+taco catotac ocat
+aA Santa at NASAa
+rA Santa at NASAr
+Do geese see God?
+dA Santa at NASAd
+eToo hot to hoote
+dStep on no petsd
+taco catptac ocat
+dToo hot to hootd
+iToo hot to hooti
+
+Palindromes of length 18:
+No lemon, no melon
+
+Palindromes of length 19:
+sDo geese see God?s
+xNever odd or evenx
+wDo geese see God?w
+fNever odd or evenf
+rNever odd or evenr
+kNever odd or evenk
+redividerxredivider
+bDo geese see God?b
+redividersredivider
+gDo geese see God?g
+redividerpredivider
+fDo geese see God?f
+redividerdredivider
+jNever odd or evenj
+sNever odd or evens
+A Toyota’s a Toyota
+yNever odd or eveny
+redividerfredivider
+mDo geese see God?m
+xDo geese see God?x
+lNever odd or evenl
+cNever odd or evenc
+bNever odd or evenb
+zDo geese see God?z
+tNever odd or event
+jDo geese see God?j
+uDo geese see God?u
+nDo geese see God?n
+vNever odd or evenv
+hDo geese see God?h
+oDo geese see God?o
+redivideraredivider
+redividerhredivider
+redividerqredivider
+kDo geese see God?k
+aDo geese see God?a
+hNever odd or evenh
+wNever odd or evenw
+redividermredivider
+redividernredivider
+mNever odd or evenm
+redividerbredivider
+redividerrredivider
+redivideriredivider
+redividervredivider
+yDo geese see God?y
+eNever odd or evene
+redividerwredivider
+dDo geese see God?d
+nNever odd or evenn
+redividercredivider
+redividertredivider
+tDo geese see God?t
+qNever odd or evenq
+redivideruredivider
+oNever odd or eveno
+dNever odd or evend
+iDo geese see God?i
+pDo geese see God?p
+redivideryredivider
+uNever odd or evenu
+zNever odd or evenz
+eDo geese see God?e
+redividerzredivider
+gNever odd or eveng
+redividereredivider
+redividerjredivider
+lDo geese see God?l
+rDo geese see God?r
+vDo geese see God?v
+aNever odd or evena
+qDo geese see God?q
+redividerlredivider
+cDo geese see God?c
+redividerkredivider
+redivideroredivider
+iNever odd or eveni
+pNever odd or evenp
+redividergredivider
+
+Palindromes of length 20:
+pNo lemon, no melonp
+vNo lemon, no melonv
+zNo lemon, no melonz
+iNo lemon, no meloni
+yNo lemon, no melony
+wNo lemon, no melonw
+nNo lemon, no melonn
+bNo lemon, no melonb
+gNo lemon, no melong
+kNo lemon, no melonk
+aNo lemon, no melona
+jNo lemon, no melonj
+fNo lemon, no melonf
+sNo lemon, no melons
+oNo lemon, no melono
+eNo lemon, no melone
+xNo lemon, no melonx
+qNo lemon, no melonq
+lNo lemon, no melonl
+tNo lemon, no melont
+uNo lemon, no melonu
+dNo lemon, no melond
+hNo lemon, no melonh
+mNo lemon, no melonm
+rNo lemon, no melonr
+cNo lemon, no melonc
+
+Palindromes of length 21:
+bA Toyota’s a Toyotab
+aA Toyota’s a Toyotaa
+jA Toyota’s a Toyotaj
+wA Toyota’s a Toyotaw
+fA Toyota’s a Toyotaf
+kA Toyota’s a Toyotak
+lA Toyota’s a Toyotal
+cA Toyota’s a Toyotac
+oA Toyota’s a Toyotao
+pA Toyota’s a Toyotap
+iA Toyota’s a Toyotai
+sA Toyota’s a Toyotas
+nA Toyota’s a Toyotan
+qA Toyota’s a Toyotaq
+vA Toyota’s a Toyotav
+gA Toyota’s a Toyotag
+eA Toyota’s a Toyotae
+hA Toyota’s a Toyotah
+rA Toyota’s a Toyotar
+yA Toyota’s a Toyotay
+tA Toyota’s a Toyotat
+zA Toyota’s a Toyotaz
+xA Toyota’s a Toyotax
+dA Toyota’s a Toyotad
+mA Toyota’s a Toyotam
+uA Toyota’s a Toyotau
+
+Palindromes of length 23:
+detartratedndetartrated
+detartratedadetartrated
+detartratedldetartrated
+detartratedsdetartrated
+detartratedjdetartrated
+detartratedfdetartrated
+detartratedtdetartrated
+detartratedrdetartrated
+detartratedzdetartrated
+detartratedidetartrated
+detartratedudetartrated
+detartratededetartrated
+detartratedgdetartrated
+detartratedydetartrated
+detartratedwdetartrated
+detartratedodetartrated
+detartratedvdetartrated
+detartratedbdetartrated
+detartratedpdetartrated
+detartratedxdetartrated
+detartratedddetartrated
+detartratedqdetartrated
+detartratedkdetartrated
+detartratedcdetartrated
+detartratedhdetartrated
+detartratedmdetartrated
+
+Palindromes of length 25:
+Able was I ere I saw Elba
+Mr. Owl ate my metal worm
+Evil rats on no star live
+
+Palindromes of length 26:
+A dog! A panic in a pagoda
+
+Palindromes of length 27:
+wMr. Owl ate my metal wormw
+gMr. Owl ate my metal wormg
+aMr. Owl ate my metal worma
+hMr. Owl ate my metal wormh
+nMr. Owl ate my metal wormn
+vEvil rats on no star livev
+fMr. Owl ate my metal wormf
+pMr. Owl ate my metal wormp
+bEvil rats on no star liveb
+wEvil rats on no star livew
+dAble was I ere I saw Elbad
+rMr. Owl ate my metal wormr
+lAble was I ere I saw Elbal
+zEvil rats on no star livez
+kMr. Owl ate my metal wormk
+uMr. Owl ate my metal wormu
+iEvil rats on no star livei
+xEvil rats on no star livex
+iMr. Owl ate my metal wormi
+vMr. Owl ate my metal wormv
+hEvil rats on no star liveh
+oAble was I ere I saw Elbao
+hAble was I ere I saw Elbah
+gEvil rats on no star liveg
+yEvil rats on no star livey
+oEvil rats on no star liveo
+mAble was I ere I saw Elbam
+qEvil rats on no star liveq
+jAble was I ere I saw Elbaj
+zAble was I ere I saw Elbaz
+nEvil rats on no star liven
+bMr. Owl ate my metal wormb
+gAble was I ere I saw Elbag
+xMr. Owl ate my metal wormx
+aEvil rats on no star livea
+cEvil rats on no star livec
+kAble was I ere I saw Elbak
+sEvil rats on no star lives
+yMr. Owl ate my metal wormy
+oMr. Owl ate my metal wormo
+tAble was I ere I saw Elbat
+cAble was I ere I saw Elbac
+Never a foot too far, even.
+vAble was I ere I saw Elbav
+cMr. Owl ate my metal wormc
+pEvil rats on no star livep
+iAble was I ere I saw Elbai
+sAble was I ere I saw Elbas
+nAble was I ere I saw Elban
+dMr. Owl ate my metal wormd
+jEvil rats on no star livej
+wAble was I ere I saw Elbaw
+rEvil rats on no star liver
+qAble was I ere I saw Elbaq
+lMr. Owl ate my metal worml
+kEvil rats on no star livek
+qMr. Owl ate my metal wormq
+mEvil rats on no star livem
+rAble was I ere I saw Elbar
+uEvil rats on no star liveu
+tEvil rats on no star livet
+yAble was I ere I saw Elbay
+aAble was I ere I saw Elbaa
+eMr. Owl ate my metal worme
+sMr. Owl ate my metal worms
+mMr. Owl ate my metal wormm
+dEvil rats on no star lived
+lEvil rats on no star livel
+bAble was I ere I saw Elbab
+fAble was I ere I saw Elbaf
+eAble was I ere I saw Elbae
+xAble was I ere I saw Elbax
+zMr. Owl ate my metal wormz
+uAble was I ere I saw Elbau
+pAble was I ere I saw Elbap
+Murder for a jar of red rum
+eEvil rats on no star livee
+jMr. Owl ate my metal wormj
+tMr. Owl ate my metal wormt
+fEvil rats on no star livef
+
+Palindromes of length 28:
+gA dog! A panic in a pagodag
+iA dog! A panic in a pagodai
+xA dog! A panic in a pagodax
+fA dog! A panic in a pagodaf
+yA dog! A panic in a pagoday
+uA dog! A panic in a pagodau
+eA dog! A panic in a pagodae
+bA dog! A panic in a pagodab
+mA dog! A panic in a pagodam
+tA dog! A panic in a pagodat
+pA dog! A panic in a pagodap
+hA dog! A panic in a pagodah
+dA dog! A panic in a pagodad
+cA dog! A panic in a pagodac
+kA dog! A panic in a pagodak
+jA dog! A panic in a pagodaj
+rA dog! A panic in a pagodar
+aA dog! A panic in a pagodaa
+wA dog! A panic in a pagodaw
+oA dog! A panic in a pagodao
+sA dog! A panic in a pagodas
+Was it a car or a cat I saw?
+vA dog! A panic in a pagodav
+qA dog! A panic in a pagodaq
+nA dog! A panic in a pagodan
+zA dog! A panic in a pagodaz
+lA dog! A panic in a pagodal
+
+Palindromes of length 29:
+jMurder for a jar of red rumj
+lMurder for a jar of red ruml
+gMurder for a jar of red rumg
+xMurder for a jar of red rumx
+yMurder for a jar of red rumy
+eNever a foot too far, even.e
+oMurder for a jar of red rumo
+iMurder for a jar of red rumi
+gNever a foot too far, even.g
+jNever a foot too far, even.j
+eMurder for a jar of red rume
+dNever a foot too far, even.d
+tMurder for a jar of red rumt
+bNever a foot too far, even.b
+cMurder for a jar of red rumc
+kMurder for a jar of red rumk
+tNever a foot too far, even.t
+fMurder for a jar of red rumf
+qMurder for a jar of red rumq
+rMurder for a jar of red rumr
+pNever a foot too far, even.p
+fNever a foot too far, even.f
+hMurder for a jar of red rumh
+oNever a foot too far, even.o
+aMurder for a jar of red ruma
+nNever a foot too far, even.n
+vMurder for a jar of red rumv
+bMurder for a jar of red rumb
+hNever a foot too far, even.h
+uNever a foot too far, even.u
+zMurder for a jar of red rumz
+qNever a foot too far, even.q
+iNever a foot too far, even.i
+rNever a foot too far, even.r
+wMurder for a jar of red rumw
+wNever a foot too far, even.w
+mNever a foot too far, even.m
+lNever a foot too far, even.l
+zNever a foot too far, even.z
+aNever a foot too far, even.a
+uMurder for a jar of red rumu
+mMurder for a jar of red rumm
+xNever a foot too far, even.x
+sNever a foot too far, even.s
+yNever a foot too far, even.y
+sMurder for a jar of red rums
+vNever a foot too far, even.v
+dMurder for a jar of red rumd
+pMurder for a jar of red rump
+kNever a foot too far, even.k
+cNever a foot too far, even.c
+nMurder for a jar of red rumn
+
+Palindromes of length 30:
+cWas it a car or a cat I saw?c
+rWas it a car or a cat I saw?r
+hWas it a car or a cat I saw?h
+dWas it a car or a cat I saw?d
+yWas it a car or a cat I saw?y
+vWas it a car or a cat I saw?v
+nWas it a car or a cat I saw?n
+lWas it a car or a cat I saw?l
+oWas it a car or a cat I saw?o
+bWas it a car or a cat I saw?b
+qWas it a car or a cat I saw?q
+xWas it a car or a cat I saw?x
+kWas it a car or a cat I saw?k
+iWas it a car or a cat I saw?i
+mWas it a car or a cat I saw?m
+A man, a plan, a canal, Panama
+wWas it a car or a cat I saw?w
+aWas it a car or a cat I saw?a
+fWas it a car or a cat I saw?f
+gWas it a car or a cat I saw?g
+uWas it a car or a cat I saw?u
+tWas it a car or a cat I saw?t
+eWas it a car or a cat I saw?e
+pWas it a car or a cat I saw?p
+jWas it a car or a cat I saw?j
+zWas it a car or a cat I saw?z
+sWas it a car or a cat I saw?s
+
+Palindromes of length 31:
+A Santa at NASAyASAN ta atnaS A
+Too hot to hootktooh ot toh ooT
+Yo, Banana Boy!l!yoB ananaB ,oY
+Too hot to hootqtooh ot toh ooT
+Yo, Banana Boy!i!yoB ananaB ,oY
+Yo, Banana Boy!b!yoB ananaB ,oY
+A Santa at NASAxASAN ta atnaS A
+Step on no petsjstep on no petS
+Step on no petsbstep on no petS
+A Santa at NASAkASAN ta atnaS A
+A Santa at NASAwASAN ta atnaS A
+Step on no petszstep on no petS
+Too hot to hootmtooh ot toh ooT
+Step on no petsxstep on no petS
+Too hot to hootttooh ot toh ooT
+Step on no petsvstep on no petS
+A Santa at NASAqASAN ta atnaS A
+Step on no petsrstep on no petS
+Yo, Banana Boy!e!yoB ananaB ,oY
+A Santa at NASAnASAN ta atnaS A
+A Santa at NASAeASAN ta atnaS A
+Yo, Banana Boy!z!yoB ananaB ,oY
+Yo, Banana Boy!a!yoB ananaB ,oY
+Yo, Banana Boy!s!yoB ananaB ,oY
+Too hot to hootgtooh ot toh ooT
+Step on no petshstep on no petS
+A Santa at NASApASAN ta atnaS A
+A Santa at NASAmASAN ta atnaS A
+Step on no petsostep on no petS
+Too hot to hootftooh ot toh ooT
+Yo, Banana Boy!d!yoB ananaB ,oY
+Too hot to hootitooh ot toh ooT
+Yo, Banana Boy!f!yoB ananaB ,oY
+Step on no petsastep on no petS
+A Santa at NASAgASAN ta atnaS A
+Too hot to hootvtooh ot toh ooT
+Too hot to hootytooh ot toh ooT
+Yo, Banana Boy!p!yoB ananaB ,oY
+Too hot to hootltooh ot toh ooT
+A Santa at NASAjASAN ta atnaS A
+Step on no petskstep on no petS
+Too hot to hootbtooh ot toh ooT
+A Santa at NASAhASAN ta atnaS A
+Step on no petscstep on no petS
+Step on no petsfstep on no petS
+Too hot to hootdtooh ot toh ooT
+Yo, Banana Boy!h!yoB ananaB ,oY
+Yo, Banana Boy!t!yoB ananaB ,oY
+Yo, Banana Boy!x!yoB ananaB ,oY
+Too hot to hootetooh ot toh ooT
+Step on no petsqstep on no petS
+Too hot to hootctooh ot toh ooT
+Too hot to hootxtooh ot toh ooT
+Too hot to hootstooh ot toh ooT
+A Santa at NASAfASAN ta atnaS A
+Step on no petssstep on no petS
+Yo, Banana Boy!u!yoB ananaB ,oY
+Yo, Banana Boy!v!yoB ananaB ,oY
+Step on no petsnstep on no petS
+Step on no petspstep on no petS
+Yo, Banana Boy!k!yoB ananaB ,oY
+Yo, Banana Boy!w!yoB ananaB ,oY
+Yo, Banana Boy!y!yoB ananaB ,oY
+Too hot to hootztooh ot toh ooT
+Too hot to hootrtooh ot toh ooT
+Yo, Banana Boy!c!yoB ananaB ,oY
+Yo, Banana Boy!q!yoB ananaB ,oY
+Too hot to hoototooh ot toh ooT
+Too hot to hootutooh ot toh ooT
+Step on no petslstep on no petS
+A Santa at NASAcASAN ta atnaS A
+Too hot to hootntooh ot toh ooT
+Too hot to hoothtooh ot toh ooT
+Step on no petsestep on no petS
+A Santa at NASAiASAN ta atnaS A
+Yo, Banana Boy!o!yoB ananaB ,oY
+A Santa at NASAbASAN ta atnaS A
+A Santa at NASAoASAN ta atnaS A
+Step on no petsistep on no petS
+Step on no petsmstep on no petS
+Step on no petswstep on no petS
+Too hot to hootatooh ot toh ooT
+Step on no petsdstep on no petS
+Step on no petststep on no petS
+A Santa at NASAzASAN ta atnaS A
+Step on no petsystep on no petS
+A Santa at NASAvASAN ta atnaS A
+Too hot to hootptooh ot toh ooT
+A Santa at NASAlASAN ta atnaS A
+A Santa at NASAsASAN ta atnaS A
+A Santa at NASAuASAN ta atnaS A
+Yo, Banana Boy!g!yoB ananaB ,oY
+A Santa at NASArASAN ta atnaS A
+Yo, Banana Boy!r!yoB ananaB ,oY
+Yo, Banana Boy!m!yoB ananaB ,oY
+Step on no petsustep on no petS
+A Santa at NASAaASAN ta atnaS A
+A Santa at NASAtASAN ta atnaS A
+Yo, Banana Boy!j!yoB ananaB ,oY
+Too hot to hootjtooh ot toh ooT
+Yo, Banana Boy!n!yoB ananaB ,oY
+A Santa at NASAdASAN ta atnaS A
+Step on no petsgstep on no petS
+Too hot to hootwtooh ot toh ooT
+
+Palindromes of length 32:
+wA man, a plan, a canal, Panamaw
+rA man, a plan, a canal, Panamar
+dA man, a plan, a canal, Panamad
+nA man, a plan, a canal, Panaman
+oA man, a plan, a canal, Panamao
+pA man, a plan, a canal, Panamap
+xA man, a plan, a canal, Panamax
+zA man, a plan, a canal, Panamaz
+qA man, a plan, a canal, Panamaq
+cA man, a plan, a canal, Panamac
+tA man, a plan, a canal, Panamat
+bA man, a plan, a canal, Panamab
+lA man, a plan, a canal, Panamal
+uA man, a plan, a canal, Panamau
+eA man, a plan, a canal, Panamae
+yA man, a plan, a canal, Panamay
+sA man, a plan, a canal, Panamas
+mA man, a plan, a canal, Panamam
+fA man, a plan, a canal, Panamaf
+gA man, a plan, a canal, Panamag
+vA man, a plan, a canal, Panamav
+jA man, a plan, a canal, Panamaj
+kA man, a plan, a canal, Panamak
+iA man, a plan, a canal, Panamai
+aA man, a plan, a canal, Panamaa
+hA man, a plan, a canal, Panamah
+
+Palindromes of length 35:
+Do geese see God?x?doG ees eseeg oD
+Do geese see God?i?doG ees eseeg oD
+Do geese see God?v?doG ees eseeg oD
+nMa is a nun, as I am a nun, am I?n
+Never odd or evenbneve ro ddo reveN
+Do geese see God?j?doG ees eseeg oD
+Do geese see God?d?doG ees eseeg oD
+Do geese see God?h?doG ees eseeg oD
+Do geese see God?r?doG ees eseeg oD
+Never odd or evengneve ro ddo reveN
+oMa is a nun, as I am a nun, am I?o
+kMa is a nun, as I am a nun, am I?k
+tMa is a nun, as I am a nun, am I?t
+Do geese see God?g?doG ees eseeg oD
+fMa is a nun, as I am a nun, am I?f
+Never odd or evendneve ro ddo reveN
+Do geese see God?a?doG ees eseeg oD
+Never odd or evennneve ro ddo reveN
+Do geese see God?q?doG ees eseeg oD
+Do geese see God?n?doG ees eseeg oD
+Never odd or evenuneve ro ddo reveN
+Never odd or evenwneve ro ddo reveN
+Never odd or evenfneve ro ddo reveN
+Do geese see God?u?doG ees eseeg oD
+hMa is a nun, as I am a nun, am I?h
+Do geese see God?y?doG ees eseeg oD
+Never odd or evenqneve ro ddo reveN
+gMa is a nun, as I am a nun, am I?g
+pMa is a nun, as I am a nun, am I?p
+Never odd or evenoneve ro ddo reveN
+Do geese see God?c?doG ees eseeg oD
+qMa is a nun, as I am a nun, am I?q
+bMa is a nun, as I am a nun, am I?b
+Never odd or evenxneve ro ddo reveN
+aMa is a nun, as I am a nun, am I?a
+yMa is a nun, as I am a nun, am I?y
+Do geese see God?f?doG ees eseeg oD
+Do geese see God?l?doG ees eseeg oD
+Never odd or evenineve ro ddo reveN
+dMa is a nun, as I am a nun, am I?d
+jMa is a nun, as I am a nun, am I?j
+vMa is a nun, as I am a nun, am I?v
+Never odd or evenrneve ro ddo reveN
+xMa is a nun, as I am a nun, am I?x
+cMa is a nun, as I am a nun, am I?c
+wMa is a nun, as I am a nun, am I?w
+zMa is a nun, as I am a nun, am I?z
+iMa is a nun, as I am a nun, am I?i
+Never odd or evenjneve ro ddo reveN
+Never odd or evenaneve ro ddo reveN
+mMa is a nun, as I am a nun, am I?m
+lMa is a nun, as I am a nun, am I?l
+Never odd or evenyneve ro ddo reveN
+Never odd or evenvneve ro ddo reveN
+Do geese see God?s?doG ees eseeg oD
+Never odd or evensneve ro ddo reveN
+Do geese see God?e?doG ees eseeg oD
+Never odd or eveneneve ro ddo reveN
+Never odd or evenzneve ro ddo reveN
+uMa is a nun, as I am a nun, am I?u
+eMa is a nun, as I am a nun, am I?e
+Do geese see God?m?doG ees eseeg oD
+Do geese see God?t?doG ees eseeg oD
+Never odd or evenkneve ro ddo reveN
+Never odd or eventneve ro ddo reveN
+Go hang a salami, I’m a lasagna hog
+Do geese see God?p?doG ees eseeg oD
+Do geese see God?b?doG ees eseeg oD
+rMa is a nun, as I am a nun, am I?r
+Never odd or evenmneve ro ddo reveN
+Never odd or evencneve ro ddo reveN
+Never odd or evenlneve ro ddo reveN
+Do geese see God?z?doG ees eseeg oD
+Never odd or evenhneve ro ddo reveN
+sMa is a nun, as I am a nun, am I?s
+Do geese see God?o?doG ees eseeg oD
+Do geese see God?w?doG ees eseeg oD
+Do geese see God?k?doG ees eseeg oD
+Never odd or evenpneve ro ddo reveN
+
+Palindromes of length 37:
+No lemon, no meloncnolem on ,nomel oN
+No lemon, no melonknolem on ,nomel oN
+oGo hang a salami, I’m a lasagna hogo
+No lemon, no melonjnolem on ,nomel oN
+jGo hang a salami, I’m a lasagna hogj
+No lemon, no melonpnolem on ,nomel oN
+No lemon, no meloninolem on ,nomel oN
+tGo hang a salami, I’m a lasagna hogt
+No lemon, no melonenolem on ,nomel oN
+qGo hang a salami, I’m a lasagna hogq
+pGo hang a salami, I’m a lasagna hogp
+No lemon, no melonvnolem on ,nomel oN
+sGo hang a salami, I’m a lasagna hogs
+aGo hang a salami, I’m a lasagna hoga
+bGo hang a salami, I’m a lasagna hogb
+No lemon, no melonanolem on ,nomel oN
+No lemon, no melonnnolem on ,nomel oN
+gGo hang a salami, I’m a lasagna hogg
+hGo hang a salami, I’m a lasagna hogh
+kGo hang a salami, I’m a lasagna hogk
+No lemon, no melonunolem on ,nomel oN
+No lemon, no melonsnolem on ,nomel oN
+No lemon, no melonwnolem on ,nomel oN
+No lemon, no melonbnolem on ,nomel oN
+No lemon, no melonznolem on ,nomel oN
+cGo hang a salami, I’m a lasagna hogc
+No lemon, no melonfnolem on ,nomel oN
+No lemon, no melongnolem on ,nomel oN
+rGo hang a salami, I’m a lasagna hogr
+vGo hang a salami, I’m a lasagna hogv
+zGo hang a salami, I’m a lasagna hogz
+dGo hang a salami, I’m a lasagna hogd
+eGo hang a salami, I’m a lasagna hoge
+No lemon, no melononolem on ,nomel oN
+wGo hang a salami, I’m a lasagna hogw
+No lemon, no melondnolem on ,nomel oN
+No lemon, no melonqnolem on ,nomel oN
+yGo hang a salami, I’m a lasagna hogy
+No lemon, no melonxnolem on ,nomel oN
+No lemon, no melonynolem on ,nomel oN
+uGo hang a salami, I’m a lasagna hogu
+lGo hang a salami, I’m a lasagna hogl
+nGo hang a salami, I’m a lasagna hogn
+No lemon, no melonmnolem on ,nomel oN
+No lemon, no melonrnolem on ,nomel oN
+No lemon, no melontnolem on ,nomel oN
+No lemon, no melonhnolem on ,nomel oN
+xGo hang a salami, I’m a lasagna hogx
+iGo hang a salami, I’m a lasagna hogi
+mGo hang a salami, I’m a lasagna hogm
+fGo hang a salami, I’m a lasagna hogf
+No lemon, no melonlnolem on ,nomel oN
+
+Palindromes of length 38:
+Sir, I demand, I am a maid named Iris.
+
+Palindromes of length 39:
+A Toyota’s a ToyotauatoyoT a s’atoyoT A
+A Toyota’s a ToyotamatoyoT a s’atoyoT A
+A Toyota’s a ToyotaratoyoT a s’atoyoT A
+A Toyota’s a ToyotadatoyoT a s’atoyoT A
+A Toyota’s a ToyotafatoyoT a s’atoyoT A
+A Toyota’s a ToyotapatoyoT a s’atoyoT A
+A Toyota’s a ToyotagatoyoT a s’atoyoT A
+A Toyota’s a ToyotasatoyoT a s’atoyoT A
+A Toyota’s a ToyotaxatoyoT a s’atoyoT A
+A Toyota’s a ToyotaeatoyoT a s’atoyoT A
+A Toyota’s a ToyotaoatoyoT a s’atoyoT A
+A Toyota’s a ToyotaqatoyoT a s’atoyoT A
+A Toyota’s a ToyotaaatoyoT a s’atoyoT A
+A Toyota’s a ToyotahatoyoT a s’atoyoT A
+A Toyota’s a ToyotaiatoyoT a s’atoyoT A
+A Toyota’s a ToyotayatoyoT a s’atoyoT A
+A Toyota’s a ToyotakatoyoT a s’atoyoT A
+A Toyota’s a ToyotawatoyoT a s’atoyoT A
+A Toyota’s a ToyotavatoyoT a s’atoyoT A
+A Toyota’s a ToyotanatoyoT a s’atoyoT A
+A Toyota’s a ToyotatatoyoT a s’atoyoT A
+A Toyota’s a ToyotacatoyoT a s’atoyoT A
+A Toyota’s a ToyotajatoyoT a s’atoyoT A
+A Toyota’s a ToyotazatoyoT a s’atoyoT A
+A Toyota’s a ToyotalatoyoT a s’atoyoT A
+A Toyota’s a ToyotabatoyoT a s’atoyoT A
+
+Palindromes of length 40:
+kSir, I demand, I am a maid named Iris.k
+rSir, I demand, I am a maid named Iris.r
+iSir, I demand, I am a maid named Iris.i
+xSir, I demand, I am a maid named Iris.x
+oSir, I demand, I am a maid named Iris.o
+nSir, I demand, I am a maid named Iris.n
+pSir, I demand, I am a maid named Iris.p
+ySir, I demand, I am a maid named Iris.y
+zSir, I demand, I am a maid named Iris.z
+tSir, I demand, I am a maid named Iris.t
+lSir, I demand, I am a maid named Iris.l
+jSir, I demand, I am a maid named Iris.j
+wSir, I demand, I am a maid named Iris.w
+aSir, I demand, I am a maid named Iris.a
+sSir, I demand, I am a maid named Iris.s
+gSir, I demand, I am a maid named Iris.g
+bSir, I demand, I am a maid named Iris.b
+vSir, I demand, I am a maid named Iris.v
+fSir, I demand, I am a maid named Iris.f
+hSir, I demand, I am a maid named Iris.h
+cSir, I demand, I am a maid named Iris.c
+eSir, I demand, I am a maid named Iris.e
+uSir, I demand, I am a maid named Iris.u
+qSir, I demand, I am a maid named Iris.q
+mSir, I demand, I am a maid named Iris.m
+dSir, I demand, I am a maid named Iris.d
+
+Palindromes of length 41:
+Cigar? Toss it in a can. It is so tragic.
+
+Palindromes of length 43:
+jCigar? Toss it in a can. It is so tragic.j
+xCigar? Toss it in a can. It is so tragic.x
+vCigar? Toss it in a can. It is so tragic.v
+qCigar? Toss it in a can. It is so tragic.q
+uCigar? Toss it in a can. It is so tragic.u
+lCigar? Toss it in a can. It is so tragic.l
+aCigar? Toss it in a can. It is so tragic.a
+oCigar? Toss it in a can. It is so tragic.o
+wCigar? Toss it in a can. It is so tragic.w
+nCigar? Toss it in a can. It is so tragic.n
+eCigar? Toss it in a can. It is so tragic.e
+kCigar? Toss it in a can. It is so tragic.k
+gCigar? Toss it in a can. It is so tragic.g
+yCigar? Toss it in a can. It is so tragic.y
+bCigar? Toss it in a can. It is so tragic.b
+mCigar? Toss it in a can. It is so tragic.m
+rCigar? Toss it in a can. It is so tragic.r
+hCigar? Toss it in a can. It is so tragic.h
+cCigar? Toss it in a can. It is so tragic.c
+sCigar? Toss it in a can. It is so tragic.s
+dCigar? Toss it in a can. It is so tragic.d
+iCigar? Toss it in a can. It is so tragic.i
+fCigar? Toss it in a can. It is so tragic.f
+tCigar? Toss it in a can. It is so tragic.t
+zCigar? Toss it in a can. It is so tragic.z
+pCigar? Toss it in a can. It is so tragic.p
+
+Palindromes of length 44:
+Red roses run no risk, sir, on Nurse's order
+
+Palindromes of length 46:
+tRed roses run no risk, sir, on Nurse's ordert
+cRed roses run no risk, sir, on Nurse's orderc
+oRed roses run no risk, sir, on Nurse's ordero
+sRed roses run no risk, sir, on Nurse's orders
+pRed roses run no risk, sir, on Nurse's orderp
+eRed roses run no risk, sir, on Nurse's ordere
+aRed roses run no risk, sir, on Nurse's ordera
+uRed roses run no risk, sir, on Nurse's orderu
+hRed roses run no risk, sir, on Nurse's orderh
+vRed roses run no risk, sir, on Nurse's orderv
+iRed roses run no risk, sir, on Nurse's orderi
+xRed roses run no risk, sir, on Nurse's orderx
+fRed roses run no risk, sir, on Nurse's orderf
+rRed roses run no risk, sir, on Nurse's orderr
+qRed roses run no risk, sir, on Nurse's orderq
+dRed roses run no risk, sir, on Nurse's orderd
+gRed roses run no risk, sir, on Nurse's orderg
+nRed roses run no risk, sir, on Nurse's ordern
+kRed roses run no risk, sir, on Nurse's orderk
+yRed roses run no risk, sir, on Nurse's ordery
+jRed roses run no risk, sir, on Nurse's orderj
+mRed roses run no risk, sir, on Nurse's orderm
+lRed roses run no risk, sir, on Nurse's orderl
+bRed roses run no risk, sir, on Nurse's orderb
+wRed roses run no risk, sir, on Nurse's orderw
+zRed roses run no risk, sir, on Nurse's orderz
+
+Total palindromes found: 1463
