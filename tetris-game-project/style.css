@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #000;
+}
+#game-container {
+    text-align: center;
+}
+canvas {
+    border: 2px solid #fff;
+    background: #111;
+}
+#score {
+    color: #fff;
+    margin-top: 10px;
+}
