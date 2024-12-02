@@ -1,11 +1,14 @@
 const canvas = document.getElementById("tetris");
 const context = canvas.getContext("2d");
-context.scale(20, 20); // Scale the blocks to fit the canvas
+
+// Set canvas size to match the game area
+canvas.width = 12 * 20;  // 12 columns, each of size 20px
+canvas.height = 20 * 20; // 20 rows, each of size 20px
 
 let score = 0;
 let arena = createMatrix(12, 20); // 12 columns, 20 rows
 
-// Create a block shape
+// Tetromino shapes (blocks)
 const tetrominoes = [
     [[1, 1, 1], [0, 1, 0]], // T-shape
     [[1, 1], [1, 1]], // Square
@@ -19,6 +22,15 @@ const tetrominoes = [
 let currentPiece = generatePiece();
 let gameOver = false;
 
+// Create the game area (empty matrix)
+function createMatrix(w, h) {
+    const matrix = [];
+    while (h--) {
+        matrix.push(new Array(w).fill(0));
+    }
+    return matrix;
+}
+
 // Generate a random piece
 function generatePiece() {
     const id = Math.floor(Math.random() * tetrominoes.length);
@@ -30,12 +42,12 @@ function generatePiece() {
     };
 }
 
-// Rotate the piece
+// Rotate a piece
 function rotate(matrix) {
     return matrix[0].map((_, index) => matrix.map(row => row[index])).reverse();
 }
 
-// Check if the piece collides with existing blocks
+// Check if the piece collides with existing blocks in the arena
 function collide(arena, piece) {
     for (let y = 0; y < piece.matrix.length; y++) {
         for (let x = 0; x < piece.matrix[y].length; x++) {
@@ -49,7 +61,7 @@ function collide(arena, piece) {
     return false;
 }
 
-// Place the piece in the arena
+// Merge the piece into the arena when it lands
 function merge(arena, piece) {
     piece.matrix.forEach((row, y) => {
         row.forEach((value, x) => {
@@ -65,8 +77,8 @@ function clearLines() {
     outer: for (let y = arena.length - 1; y >= 0; y--) {
         if (arena[y].every(cell => cell !== 0)) {
             arena.splice(y, 1);
-            arena.unshift(new Array(arena[0].length).fill(0));
-            score += 100; // Increase score for cleared line
+            arena.unshift(new Array(arena[0].length).fill(0)); // Add new empty row
+            score += 100; // Increase score
         }
     }
 }
@@ -77,13 +89,13 @@ function drawMatrix(matrix, offset) {
         row.forEach((value, x) => {
             if (value !== 0) {
                 context.fillStyle = "red";
-                context.fillRect(x + offset.x, y + offset.y, 1, 1);
+                context.fillRect((x + offset.x) * 20, (y + offset.y) * 20, 20, 20);
             }
         });
     });
 }
 
-// Update the game state
+// Update the game state and redraw
 function update() {
     if (gameOver) {
         alert("Game Over");
@@ -97,7 +109,7 @@ function update() {
         merge(arena, currentPiece);
         currentPiece = generatePiece();
         if (collide(arena, currentPiece)) {
-            gameOver = true;
+            gameOver = true;  // End game if new piece collides
         }
     } else {
         currentPiece.y++;
@@ -141,7 +153,7 @@ document.addEventListener("keydown", (e) => {
     }
 });
 
-// Game loop
+// Game loop (repeat every 500ms)
 function loop() {
     update();
     if (!gameOver) {

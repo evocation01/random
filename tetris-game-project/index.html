@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tetris Game</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black;
+            color: white;
+        }
+        canvas {
+            border: 2px solid white;
+        }
+    </style>
 </head>
 <body>
-    <div id="game-container">
-        <canvas id="tetris" width="300" height="600"></canvas>
-        <div id="score">Score: 0</div>
-    </div>
+    <canvas id="tetris"></canvas>
+    <div id="score">Score: 0</div>
     <script src="script.js"></script>
 </body>
 </html>
