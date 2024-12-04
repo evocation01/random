@@ -38,6 +38,128 @@
     </canvas>
   </div>
 
+  <div id="hallOfFame">
+    <h3>Hall of Fame</h3>
+    <ul id="scoreList">
+      <!-- Score list will be populated here -->
+    </ul>
+    <input type="text" id="playerName" placeholder="Enter your name">
+    <button id="submitScore">Submit Score</button>
+  </div>
+
+<!-- hall of fame javascript code -->
+  <script>
+    const submitButton = document.getElementById("submitScore");
+    const playerNameInput = document.getElementById("playerName");
+    const scoreList = document.getElementById("scoreList");
+
+    submitButton.addEventListener("click", submitScore);
+
+    let currentScore = 0; // Set this dynamically based on your game's score.
+
+    function fetchScores() {
+      fetch("getScores.php")
+        .then(response => response.text())
+        .then(data => {
+          const scores = parseScores(data);
+          displayScores(scores);
+        })
+        .catch(error => console.error("Error fetching scores:", error));
+  }
+
+
+
+    function parseScores(data) {
+      const lines = data.split("\n");
+      const scores = [];
+
+      lines.forEach(line => {
+        const [name, score] = line.split(": ");
+        if (name && score) {
+          scores.push({ name, score: parseInt(score) });
+        }
+      });
+
+      // Sort scores in descending order
+      scores.sort((a, b) => b.score - a.score);
+
+      // Keep only the top 10 scores
+      return scores.slice(0, 10);
+    }
+
+    function displayScores(scores) {
+      scoreList.innerHTML = ""; // Clear the list before adding new items
+      scores.forEach(score => {
+        const li = document.createElement("li");
+        li.textContent = `${score.name}: ${score.score}`;
+        scoreList.appendChild(li);
+      });
+    }
+
+    function submitScore() {
+      console.log("submitScore function triggered");
+
+      const playerName = playerNameInput.value.trim();
+      console.log("Player Name:", playerNameInput.value.trim());
+      console.log("Current Score:", currentScore);
+      
+      if (!playerName || currentScore === 0) {
+          console.log("Invalid input: playerName or currentScore is missing.");
+          return;
+      }
+
+      const newScore = `${playerName}: ${currentScore}`;
+      console.log("Submitting score:", newScore);
+
+      fetch("updateScores.php", {
+          method: "POST",
+          headers: {
+              "Content-Type": "text/plain",
+          },
+          body: newScore,
+      })
+          .then(response => response.text())
+          .then(data => {
+              console.log("Server response:", data);
+              fetchScores(); // Reload scores after update
+          })
+          .catch(error => console.error("Error updating scores:", error));
+  }
+
+
+
+
+    // Initial fetch to load scores when the page loads
+    fetchScores();
+  </script>
+  
+  <script>
+    // Update Scores after each game or significant event
+    function updateScores(newScore) {
+        console.log("Updating score:", newScore);
+    
+        // Update the score in the UI (example: you might have a global `score` variable in your game)
+        const scoreElement = document.getElementById("score");
+        scoreElement.textContent = newScore;
+    
+        // Optionally, you can send the score to a server or database for persistence (as you've done with submitScore)
+        fetch("updateScores.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "text/plain",
+            },
+            body: newScore
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log("Score updated on server:", data);
+            // Reload score list or handle response if needed
+            fetchScores(); // You can call fetchScores to reload the leaderboard if needed
+        })
+        .catch(error => console.error("Error updating scores:", error));
+    }
+  </script>
+  
   <script src="stats.js"></script>
   <script>
 
